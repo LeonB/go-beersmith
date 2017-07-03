@@ -18,8 +18,8 @@ func TestRecipe(t *testing.T) {
 	err := dec.Decode(&recipes)
 	log.Println(err)
 
-	recipes.AllRecipes()
-	// for _, recipe := range recipes.AllRecipes() {
-	// 	log.Println(recipe.F_R_NAME)
-	// }
+	// recipes.AllRecipes()
+	for _, recipe := range recipes.AllRecipes() {
+		log.Println(recipe.Name)
+	}
 }

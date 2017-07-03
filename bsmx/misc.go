@@ -3,23 +3,23 @@ package bsmx
 import "github.com/leonb/go-beersmith/units"
 
 type Misc struct {
-	F_M_AMOUNT           float64      `xml:"F_M_AMOUNT"`
-	F_M_IMPORT_AS_WEIGHT units.Bool   `xml:"F_M_IMPORT_AS_WEIGHT"`
-	F_M_IMPORT_UNITS     units.Bool   `xml:"F_M_IMPORT_UNITS"`
-	F_M_INVENTORY        float64      `xml:"F_M_INVENTORY"`
-	F_M_NAME             string       `xml:"F_M_NAME"`
-	F_M_NOTES            string       `xml:"F_M_NOTES"`
-	F_M_PRICE            units.Price  `xml:"F_M_PRICE"`
-	F_M_TEMP_VOL         units.Volume `xml:"F_M_TEMP_VOL"`
-	F_M_TIME             float64      `xml:"F_M_TIME"`
-	F_M_TIME_UNITS       TimeUnit     `xml:"F_M_TIME_UNITS"`
-	F_M_TYPE             MiscType     `xml:"F_M_TYPE"`
-	F_M_UNITS            MiscUnit     `xml:"F_M_UNITS"`
-	F_M_USE              MiscUse      `xml:"F_M_USE"`
-	F_M_USE_FOR          MiscUseFor   `xml:"F_M_USE_FOR"`
-	F_M_VOLUME           units.Volume `xml:"F_M_VOLUME"`
-	F_ORDER              int          `xml:"F_ORDER"`
-	_MOD_                units.Date   `xml:"_MOD_"`
+	Amount         float64        `xml:"F_M_AMOUNT"`
+	ImportAsWeight units.Bool     `xml:"F_M_IMPORT_AS_WEIGHT"`
+	ImportUnits    units.Bool     `xml:"F_M_IMPORT_UNITS"`
+	Inventory      float64        `xml:"F_M_INVENTORY"`
+	Name           string         `xml:"F_M_NAME"`
+	Notes          string         `xml:"F_M_NOTES"`
+	Price          units.Price    `xml:"F_M_PRICE"`
+	TempVol        units.Volume   `xml:"F_M_TEMP_VOL"`
+	Time           units.Duration `xml:"F_M_TIME"`
+	TimeUnits      TimeUnit       `xml:"F_M_TIME_UNITS"`
+	Type           MiscType       `xml:"F_M_TYPE"`
+	Units          MiscUnit       `xml:"F_M_UNITS"`
+	Use            MiscUse        `xml:"F_M_USE"`
+	UseFor         MiscUseFor     `xml:"F_M_USE_FOR"`
+	Volume         units.Volume   `xml:"F_M_VOLUME"`
+	Order          int            `xml:"F_ORDER"`
+	_MOD_          units.Date     `xml:"_MOD_"`
 }
 
 type MiscType int

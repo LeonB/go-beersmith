@@ -3,32 +3,48 @@ package bsmx
 import "github.com/leonb/go-beersmith/units"
 
 type Grain struct {
-	F_G_ADD_AFTER_BOIL   units.Bool  `xml:"F_G_ADD_AFTER_BOIL"`
-	F_G_AMOUNT           float64     `xml:"F_G_AMOUNT"`
-	F_G_BOIL_TIME        float64     `xml:"F_G_BOIL_TIME"`
-	F_G_COARSE_FINE_DIFF float64     `xml:"F_G_COARSE_FINE_DIFF"`
-	F_G_COLOR            float64     `xml:"F_G_COLOR"`
-	F_G_CONVERT_GRAIN    string      `xml:"F_G_CONVERT_GRAIN"`
-	F_G_DIASTATIC_POWER  float64     `xml:"F_G_DIASTATIC_POWER"`
-	F_G_IBU_GAL_PER_LB   float64     `xml:"F_G_IBU_GAL_PER_LB"`
-	F_G_INVENTORY        float64     `xml:"F_G_INVENTORY"`
-	F_G_IN_RECIPE        units.Bool  `xml:"F_G_IN_RECIPE"`
-	F_G_LATE_EXTRACT     float64     `xml:"F_G_LATE_EXTRACT"`
-	F_G_MAX_IN_BATCH     float64     `xml:"F_G_MAX_IN_BATCH"`
-	F_G_MOISTURE         float64     `xml:"F_G_MOISTURE"`
-	F_G_NAME             string      `xml:"F_G_NAME"`
-	F_G_NOTES            string      `xml:"F_G_NOTES"`
-	F_G_NOT_FERMENTABLE  units.Bool  `xml:"F_G_NOT_FERMENTABLE"`
-	F_G_ORIGIN           string      `xml:"F_G_ORIGIN"`
-	F_G_PERCENT          float64     `xml:"F_G_PERCENT"`
-	F_G_PRICE            units.Price `xml:"F_G_PRICE"`
-	F_G_PROTEIN          float64     `xml:"F_G_PROTEIN"`
-	F_G_RECOMMEND_MASH   units.Bool  `xml:"F_G_RECOMMEND_MASH"`
-	F_G_SUPPLIER         string      `xml:"F_G_SUPPLIER"`
-	F_G_TYPE             GrainType   `xml:"F_G_TYPE"`
-	F_G_YIELD            float64     `xml:"F_G_YIELD"`
-	F_ORDER              int         `xml:"F_ORDER"`
-	_MOD_                units.Date  `xml:"_MOD_"`
+	AddAfterBoil units.Bool     `xml:"F_G_ADD_AFTER_BOIL"`
+	Amount       units.Weight   `xml:"F_G_AMOUNT"`
+	BoilTime     units.Duration `xml:"F_G_BOIL_TIME"`
+	// Difference between the coarse and fine grain yield in percent.
+	CoarseFineDiff units.Percentage `xml:"F_G_COARSE_FINE_DIFF"`
+	Color          units.Color      `xml:"F_G_COLOR"`
+	// Replace this grain with the following grain when converting recipes to
+	// extract.
+	ConvertGrain string `xml:"F_G_CONVERT_GRAIN"`
+	// Diastic power is a measure of how much enzymes the grain contributes for
+	// converting sugars during the mash.
+	DiastaticPower units.Lintner    `xml:"F_G_DIASTATIC_POWER"`
+	IBUGalPerLb    units.Unknown    `xml:"F_G_IBU_GAL_PER_LB"`
+	Inventory      units.Weight     `xml:"F_G_INVENTORY"`
+	InRecipe       units.Bool       `xml:"F_G_IN_RECIPE"`
+	LateExtract    float64          `xml:"F_G_LATE_EXTRACT"`
+	MaxInBatch     units.Percentage `xml:"F_G_MAX_IN_BATCH"`
+	// Moisture content for the grain in percent.
+	Moisture       units.Percentage `xml:"F_G_MOISTURE"`
+	Name           string           `xml:"F_G_NAME"`
+	Notes          string           `xml:"F_G_NOTES"`
+	NotFermentable units.Bool       `xml:"F_G_NOT_FERMENTABLE"`
+	Origin         string           `xml:"F_G_ORIGIN"`
+	Percent        units.Percentage `xml:"F_G_PERCENT"`
+	Price          units.Price      `xml:"F_G_PRICE"`
+	// Protein content of the grain in percent
+	Protein       units.Percentage `xml:"F_G_PROTEIN"`
+	RecommendMash units.Bool       `xml:"F_G_RECOMMEND_MASH"`
+	Supplier      string           `xml:"F_G_SUPPLIER"`
+	Type          GrainType        `xml:"F_G_TYPE"`
+	// Fine crush, dry grain yield of the malt
+	Yield units.Percentage `xml:"F_G_YIELD"`
+	Order int              `xml:"F_ORDER"`
+	_MOD_ units.Date       `xml:"_MOD_"`
 }
 
 type GrainType int
+
+var (
+	GrainTypeGrain      GrainType = 0
+	GrainTypeExtract    GrainType = 1
+	GrainTypeSugar      GrainType = 2
+	GrainTypeAdjunct    GrainType = 3
+	GrainTypeDryExtract GrainType = 4
+)
