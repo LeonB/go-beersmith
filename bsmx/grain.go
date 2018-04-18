@@ -16,12 +16,13 @@ type Grain struct {
 	ConvertGrain string `xml:"F_G_CONVERT_GRAIN"`
 	// Diastic power is a measure of how much enzymes the grain contributes for
 	// converting sugars during the mash.
-	DiastaticPower units.Lintner    `xml:"F_G_DIASTATIC_POWER"`
-	IBUGalPerLb    units.Unknown    `xml:"F_G_IBU_GAL_PER_LB"`
-	Inventory      units.Weight     `xml:"F_G_INVENTORY"`
-	InRecipe       units.Bool       `xml:"F_G_IN_RECIPE"`
-	LateExtract    float64          `xml:"F_G_LATE_EXTRACT"`
-	MaxInBatch     units.Percentage `xml:"F_G_MAX_IN_BATCH"`
+	DiastaticPower units.Lintner `xml:"F_G_DIASTATIC_POWER"`
+	// Used for DME/LME: IBU's per Gallon Per Pound?
+	IBUGalPerLb units.Unknown    `xml:"F_G_IBU_GAL_PER_LB"`
+	Inventory   units.Weight     `xml:"F_G_INVENTORY"`
+	InRecipe    units.Bool       `xml:"F_G_IN_RECIPE"`
+	LateExtract float64          `xml:"F_G_LATE_EXTRACT"`
+	MaxInBatch  units.Percentage `xml:"F_G_MAX_IN_BATCH"`
 	// Moisture content for the grain in percent.
 	Moisture       units.Percentage `xml:"F_G_MOISTURE"`
 	Name           string           `xml:"F_G_NAME"`
