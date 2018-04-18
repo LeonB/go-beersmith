@@ -2,6 +2,8 @@ package bsmx
 
 import "github.com/leonb/go-beersmith/units"
 
+type Yeasts []Yeast
+
 type Yeast struct {
 	Order          int        `xml:"F_ORDER"`
 	AddToSecondary units.Bool `xml:"F_Y_ADD_TO_SECONDARY"`

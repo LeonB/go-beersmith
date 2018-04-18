@@ -2,6 +2,8 @@ package bsmx
 
 import "github.com/leonb/go-beersmith/units"
 
+type Grains []Grain
+
 type Grain struct {
 	AddAfterBoil units.Bool     `xml:"F_G_ADD_AFTER_BOIL"`
 	Amount       units.Weight   `xml:"F_G_AMOUNT"`

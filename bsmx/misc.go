@@ -2,6 +2,8 @@ package bsmx
 
 import "github.com/leonb/go-beersmith/units"
 
+type Miscs []Misc
+
 type Misc struct {
 	Amount         float64        `xml:"F_M_AMOUNT"`
 	ImportAsWeight units.Bool     `xml:"F_M_IMPORT_AS_WEIGHT"`

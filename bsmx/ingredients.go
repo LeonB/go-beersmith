@@ -13,9 +13,9 @@ type Ingredients struct {
 	_XName   *_XName    `xml:"_XName"`
 	Allocinc int        `xml:"Allocinc"`
 	// Data       *Data      `xml:"Data"`
-	Grains     []Grain    `xml:"Data>Grain"`
-	Hops       Hops       `xml:"Data>Hop"`
-	Yeasts     []Yeast    `xml:"Data>Yeast"`
-	Miscs      []Misc     `xml:"Data>Misc"`
+	Grains     Grains     `xml:"Data>Grain"`
+	Hops       Hops       `xml:"Data>Hops"`
+	Yeasts     Yeasts     `xml:"Data>Yeast"`
+	Miscs      Miscs      `xml:"Data>Misc"`
 	_TExpanded units.Bool `xml:"_TExpanded"`
 }
