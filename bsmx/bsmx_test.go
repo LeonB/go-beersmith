@@ -15,7 +15,12 @@ func TestRecipe(t *testing.T) {
 		log.Fatal(err)
 	}
 
-	file, err := bsmx.Open(home + "/.beersmith3/Carbonation.bsmx")
+	// file, err := bsmx.Open(home + "/.beersmith3/Carbonation.bsmx")
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+
+	file, err := bsmx.Open(home + "/.beersmith3/Age.bsmx")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -30,9 +35,14 @@ func TestRecipe(t *testing.T) {
 	// 	log.Println(recipe.Name)
 	// }
 
-	for _, c := range file.Carbonations {
+	for _, c := range file.CarbonationProfiles {
 		log.Println(c.Name)
 		log.Println(c.Type.String())
+	}
+
+	for _, f := range file.FermentationProfiles {
+		log.Println(f.Name)
+		log.Println(f.Type.String())
 	}
 
 	for _, g := range file.Grains {

@@ -20,11 +20,12 @@ type File struct {
 	_XName   *_XName    `xml:"_XName,omitempty"`
 	Allocinc int        `xml:"Allocinc,omitempty"`
 	// Data       Data      `xml:"Data,omitempty"`
-	Tables       Tables       `xml:"Data>Table"`
-	Recipes      Recipes      `xml:"Data>Recipe"`
-	Grains       Grains       `xml:"Data>Grain"`
-	Carbonations Carbonations `xml:"Data>Carbonation"`
-	_TExpanded   units.Bool   `xml:"_TExpanded,omitempty"`
+	Tables               Tables               `xml:"Data>Table"`
+	Recipes              Recipes              `xml:"Data>Recipe"`
+	Grains               Grains               `xml:"Data>Grain"`
+	CarbonationProfiles  CarbonationProfiles  `xml:"Data>Carbonation"`
+	FermentationProfiles FermentationProfiles `xml:"Data>Age"`
+	_TExpanded           units.Bool           `xml:"_TExpanded,omitempty"`
 }
 
 func (f *File) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
