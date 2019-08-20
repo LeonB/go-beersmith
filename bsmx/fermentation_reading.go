@@ -2,6 +2,8 @@ package bsmx
 
 import "github.com/leonb/go-beersmith/units"
 
+type FermentationReadings []FermentationReading
+
 type FermentationReading struct {
 	Date    units.Time        `xml:"Date"`
 	Gravity units.Gravity     `xml:"F_AD_GRAVITY"`

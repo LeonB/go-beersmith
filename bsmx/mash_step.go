@@ -2,6 +2,8 @@ package bsmx
 
 import "github.com/leonb/go-beersmith/units"
 
+type MashSteps []MashStep
+
 type MashStep struct {
 	// Calculated volume of mash to decoct. Only applicable for a decoction step. Includes the units as in "7.5 l" or "2.3 gal"
 	DecoctionAmt   units.Volume                  `xml:"F_MS_DECOCTION_AMT,omitempty"`

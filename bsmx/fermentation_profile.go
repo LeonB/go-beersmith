@@ -2,6 +2,8 @@ package bsmx
 
 import "github.com/leonb/go-beersmith/units"
 
+type FermentationProfiles []FermentationProfile
+
 type FermentationProfile struct {
 	Name                    string                  `xml:"F_A_NAME"`
 	PrimaryTemperature      units.Temperature       `xml:"F_A_PRIM_TEMP"`

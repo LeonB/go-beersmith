@@ -2,6 +2,8 @@ package bsmx
 
 import "github.com/leonb/go-beersmith/units"
 
+type CarbonationProfiles []CarbonationProfile
+
 type CarbonationProfile struct {
 	Name        string                 `xml:"F_C_NAME"`
 	Temperature units.Temperature      `xml:"F_C_TEMPERATURE"`
