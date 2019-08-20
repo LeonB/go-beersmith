@@ -23,6 +23,7 @@ type File struct {
 	Tables               Tables               `xml:"Data>Table"`
 	Recipes              Recipes              `xml:"Data>Recipe"`
 	Grains               Grains               `xml:"Data>Grain"`
+	Yeasts               Yeasts               `xml:"Data>Yeast"`
 	CarbonationProfiles  CarbonationProfiles  `xml:"Data>Carbonation"`
 	FermentationProfiles FermentationProfiles `xml:"Data>Age"`
 	_TExpanded           units.Bool           `xml:"_TExpanded,omitempty"`
