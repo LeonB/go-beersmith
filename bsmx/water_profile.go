@@ -2,7 +2,9 @@ package bsmx
 
 import "github.com/leonb/go-beersmith/units"
 
-type Water struct {
+type WaterProfiles []WaterProfile
+
+type WaterProfile struct {
 	Order        int          `xml:"F_ORDER"`
 	AdditionsVol units.Volume `xml:"F_W_ADDITIONS_VOL"`
 	Amount       units.Volume `xml:"F_W_AMOUNT"`

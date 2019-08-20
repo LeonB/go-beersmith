@@ -2,6 +2,8 @@ package bsmx
 
 import "github.com/leonb/go-beersmith/units"
 
+type MashProfiles []MashProfile
+
 type MashProfile struct {
 	F_MASH_39    units.Bool                    `xml:"F_MASH_39"`
 	Batch        units.Bool                    `xml:"F_MH_BATCH"`

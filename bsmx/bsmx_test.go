@@ -25,7 +25,22 @@ func TestRecipe(t *testing.T) {
 	// 	log.Fatal(err)
 	// }
 
-	file, err := bsmx.Open(home + "/.beersmith3/Yeast.bsmx")
+	// file, err := bsmx.Open(home + "/.beersmith3/Yeast.bsmx")
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+
+	// file, err := bsmx.Open(home + "/.beersmith3/Style.bsmx")
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+
+	// file, err := bsmx.Open(home + "/.beersmith3/Mash.bsmx")
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+
+	file, err := bsmx.Open(home + "/.beersmith3/Water.bsmx")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -56,6 +71,22 @@ func TestRecipe(t *testing.T) {
 
 	for _, y := range file.Yeasts {
 		log.Println(y.Name)
+	}
+
+	for _, s := range file.Styles {
+		log.Println(s.Name)
+	}
+
+	for _, s := range file.Styles {
+		log.Println(s.Name)
+	}
+
+	for _, m := range file.MashProfiles {
+		log.Println(m.Name)
+	}
+
+	for _, w := range file.WaterProfiles {
+		log.Println(w.Name)
 	}
 
 	for _, t := range file.Tables {

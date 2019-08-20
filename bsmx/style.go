@@ -6,6 +6,8 @@ import (
 	"github.com/leonb/go-beersmith/units"
 )
 
+type Styles []Style
+
 type Style struct {
 	Category    string                  `xml:"F_S_CATEGORY"`
 	Description string                  `xml:"F_S_DESCRIPTION"`

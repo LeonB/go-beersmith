@@ -20,12 +20,16 @@ type File struct {
 	_XName   *_XName    `xml:"_XName,omitempty"`
 	Allocinc int        `xml:"Allocinc,omitempty"`
 	// Data       Data      `xml:"Data,omitempty"`
-	Tables               Tables               `xml:"Data>Table"`
-	Recipes              Recipes              `xml:"Data>Recipe"`
-	Grains               Grains               `xml:"Data>Grain"`
-	Yeasts               Yeasts               `xml:"Data>Yeast"`
 	CarbonationProfiles  CarbonationProfiles  `xml:"Data>Carbonation"`
 	FermentationProfiles FermentationProfiles `xml:"Data>Age"`
+	Grains               Grains               `xml:"Data>Grain"`
+	Hops                 Hops                 `xml:"Data>Hop"`
+	MashProfiles         MashProfiles         `xml:"Data>Mash"`
+	Recipes              Recipes              `xml:"Data>Recipe"`
+	Styles               Styles               `xml:"Data>Style"`
+	Tables               Tables               `xml:"Data>Table"`
+	WaterProfiles        WaterProfiles        `xml:"Data>Water"`
+	Yeasts               Yeasts               `xml:"Data>Yeast"`
 	_TExpanded           units.Bool           `xml:"_TExpanded,omitempty"`
 }
 
