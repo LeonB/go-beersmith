@@ -26,7 +26,7 @@ type Style struct {
 	MinIBU      units.IBU               `xml:"F_S_MIN_IBU"`
 	MinOG       units.Gravity           `xml:"F_S_MIN_OG"`
 	Name        string                  `xml:"F_S_NAME"`
-	Number      int                     `xml:"F_S_NUMBER"`
+	Number      string                  `xml:"F_S_NUMBER"`
 	Profile     string                  `xml:"F_S_PROFILE"`
 	Type        StyleType               `xml:"F_S_TYPE"`
 	WebLink     url.URL                 `xml:"F_S_WEB_LINK"`
@@ -43,3 +43,22 @@ var (
 	StyleTypeCider StyleType = 4
 	StyleTypeWheat StyleType = 5
 )
+
+func (st StyleType) String() string {
+	switch st {
+	case 0:
+		return "Ale"
+	case 1:
+		return "Lager"
+	case 2:
+		return "Mixed"
+	case 3:
+		return "Mead"
+	case 4:
+		return "Cider"
+	case 5:
+		return "Wheat"
+	}
+
+	return ""
+}
