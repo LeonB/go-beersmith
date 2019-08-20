@@ -1,13 +1,46 @@
 package bsmx_test
 
 import (
+	"io/ioutil"
 	"log"
 	"os"
+	"path/filepath"
 	"testing"
 
+	"github.com/go-xmlfmt/xmlfmt"
 	"github.com/leonb/go-beersmith/bsmx"
 	"github.com/mitchellh/go-homedir"
 )
+
+func TestOpenSaveShouldResultInSameFile(t *testing.T) {
+	names, err := filepath.Glob("test_assets/*.bsmx")
+	if err != nil {
+		t.Error(err)
+	}
+
+	for _, name := range names {
+		b, err := ioutil.ReadFile(name)
+		if err != nil {
+			t.Error(err)
+		}
+
+		xml1 := xmlfmt.FormatXML(string(b), "\t", "  ")
+
+		f, err := bsmx.ReadBytes(b)
+		if err != nil {
+			t.Error(err)
+		}
+
+		b, err = f.ToXML()
+		if err != nil {
+			t.Error(err)
+		}
+
+		xml2 := xmlfmt.FormatXML(string(b), "\t", "  ")
+
+		log.Println(xml1 == xml2)
+	}
+}
 
 func TestRecipe(t *testing.T) {
 	home, err := homedir.Dir()

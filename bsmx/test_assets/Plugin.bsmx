@@ -1,0 +1,63 @@
+<Plugin><_MOD_>2011-04-20</_MOD_>
+<Name>Plugin</Name>
+<Type>8344</Type>
+<Dirty>0</Dirty>
+<Owndata>1</Owndata>
+<TID>8344</TID>
+<Size>10</Size>
+<_XName>Plugin</_XName>
+<Allocinc>16</Allocinc>
+<Data><Plugin><_MOD_>2019-07-03</_MOD_>
+<F_PLUG_NAME>Weyermann Malts (30 grains)</F_PLUG_NAME>
+<F_PLUG_TYPE>7406</F_PLUG_TYPE>
+<F_PLUG_FILE>Weyermann.bsmx</F_PLUG_FILE>
+</Plugin>
+<Plugin><_MOD_>2019-04-09</_MOD_>
+<F_PLUG_NAME>Yeast Update 2016 (178 yeasts)</F_PLUG_NAME>
+<F_PLUG_TYPE>7426</F_PLUG_TYPE>
+<F_PLUG_FILE>Yeast2016Update.bsmx</F_PLUG_FILE>
+</Plugin>
+<Plugin><_MOD_>2019-02-11</_MOD_>
+<F_PLUG_NAME>Simpsons Malts (29 grains)</F_PLUG_NAME>
+<F_PLUG_TYPE>7406</F_PLUG_TYPE>
+<F_PLUG_FILE>SimpsonsMalts.bsmx</F_PLUG_FILE>
+</Plugin>
+<Plugin><_MOD_>2019-05-19</_MOD_>
+<F_PLUG_NAME>BJCP 2015 Style Guide</F_PLUG_NAME>
+<F_PLUG_TYPE>7428</F_PLUG_TYPE>
+<F_PLUG_FILE>http://d1sqla7250puhf.cloudfront.net/Plugin/BJCP2015.bsmx</F_PLUG_FILE>
+</Plugin>
+<Plugin><_MOD_>2019-08-16</_MOD_>
+<F_PLUG_NAME>BestMalz Malts (30 grains)</F_PLUG_NAME>
+<F_PLUG_TYPE>7406</F_PLUG_TYPE>
+<F_PLUG_FILE>http://d1sqla7250puhf.cloudfront.net/Plugin/BestMalz_Eng.bsmx</F_PLUG_FILE>
+</Plugin>
+<Plugin><_MOD_>2019-08-16</_MOD_>
+<F_PLUG_NAME>Crisp Malts (11 grains)</F_PLUG_NAME>
+<F_PLUG_TYPE>7406</F_PLUG_TYPE>
+<F_PLUG_FILE>http://d1sqla7250puhf.cloudfront.net/Plugin/Crisp.bsmx</F_PLUG_FILE>
+</Plugin>
+<Plugin><_MOD_>2019-08-16</_MOD_>
+<F_PLUG_NAME>Thomas Fawcett Malts (14 grains)</F_PLUG_NAME>
+<F_PLUG_TYPE>7406</F_PLUG_TYPE>
+<F_PLUG_FILE>http://d1sqla7250puhf.cloudfront.net/Plugin/Thomas_Fawcett.bsmx</F_PLUG_FILE>
+</Plugin>
+<Plugin><_MOD_>2019-07-03</_MOD_>
+<F_PLUG_NAME>Swaen Malts Netherlands (69 grains)</F_PLUG_NAME>
+<F_PLUG_TYPE>7406</F_PLUG_TYPE>
+<F_PLUG_FILE>http://d1sqla7250puhf.cloudfront.net/Plugin/SwaenMalts.bsmx</F_PLUG_FILE>
+</Plugin>
+<Plugin><_MOD_>2019-08-16</_MOD_>
+<F_PLUG_NAME>Muntons Malts (17 grains)</F_PLUG_NAME>
+<F_PLUG_TYPE>7406</F_PLUG_TYPE>
+<F_PLUG_FILE>http://d1sqla7250puhf.cloudfront.net/Plugin/MuntonsMalts.bsmx</F_PLUG_FILE>
+</Plugin>
+<Plugin><_MOD_>2019-08-16</_MOD_>
+<F_PLUG_NAME>Dingemans Malts (13 grains)</F_PLUG_NAME>
+<F_PLUG_TYPE>7406</F_PLUG_TYPE>
+<F_PLUG_FILE>http://d1sqla7250puhf.cloudfront.net/Plugin/Dingemans.bsmx</F_PLUG_FILE>
+</Plugin>
+</Data>
+<_TExpanded>1</_TExpanded>
+<TExtra>0</TExtra>
+</Plugin>

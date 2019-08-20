@@ -1,0 +1,85 @@
+<Carbonation><_MOD_>2017-05-19</_MOD_>
+<Name>Carbonation</Name>
+<Type>7478</Type>
+<Dirty>0</Dirty>
+<Owndata>0</Owndata>
+<TID>7478</TID>
+<Size>9</Size>
+<_XName>Carbonation</_XName>
+<Allocinc>16</Allocinc>
+<Data><Carbonation><_MOD_>2018-08-14</_MOD_>
+<F_C_NAME>None - Keg</F_C_NAME>
+<F_C_TEMPERATURE>70.0000000</F_C_TEMPERATURE>
+<F_C_TYPE>1</F_C_TYPE>
+<F_C_PRIMER_NAME>None</F_C_PRIMER_NAME>
+<F_C_CARB_RATE>0.0000000</F_C_CARB_RATE>
+<F_C_NOTES></F_C_NOTES>
+</Carbonation>
+<Carbonation><_MOD_>2018-08-14</_MOD_>
+<F_C_NAME>None - Bottle</F_C_NAME>
+<F_C_TEMPERATURE>70.0000000</F_C_TEMPERATURE>
+<F_C_TYPE>0</F_C_TYPE>
+<F_C_PRIMER_NAME>None</F_C_PRIMER_NAME>
+<F_C_CARB_RATE>0.0000000</F_C_CARB_RATE>
+<F_C_NOTES></F_C_NOTES>
+</Carbonation>
+<Carbonation><_MOD_>2017-07-03</_MOD_>
+<F_C_NAME>Table Sugar</F_C_NAME>
+<F_C_TEMPERATURE>70.0000000</F_C_TEMPERATURE>
+<F_C_TYPE>0</F_C_TYPE>
+<F_C_PRIMER_NAME>Table Sugar</F_C_PRIMER_NAME>
+<F_C_CARB_RATE>109.9000000</F_C_CARB_RATE>
+<F_C_NOTES>Table sugar has no water and is slightly more effective than corn sugar</F_C_NOTES>
+</Carbonation>
+<Carbonation><_MOD_>2011-02-23</_MOD_>
+<F_C_NAME>Keg with Table Sugar</F_C_NAME>
+<F_C_TEMPERATURE>70.0000000</F_C_TEMPERATURE>
+<F_C_TYPE>2</F_C_TYPE>
+<F_C_PRIMER_NAME>Table Sugar</F_C_PRIMER_NAME>
+<F_C_CARB_RATE>109.9000000</F_C_CARB_RATE>
+<F_C_NOTES>Use table sugar to naturally carbonate the keg</F_C_NOTES>
+</Carbonation>
+<Carbonation><_MOD_>2011-02-23</_MOD_>
+<F_C_NAME>Keg with Corn Sugar</F_C_NAME>
+<F_C_TEMPERATURE>70.0000000</F_C_TEMPERATURE>
+<F_C_TYPE>2</F_C_TYPE>
+<F_C_PRIMER_NAME>Corn Sugar</F_C_PRIMER_NAME>
+<F_C_CARB_RATE>100.0000000</F_C_CARB_RATE>
+<F_C_NOTES>Naturally carbonate the beer using corn sugar</F_C_NOTES>
+</Carbonation>
+<Carbonation><_MOD_>2011-04-25</_MOD_>
+<F_C_NAME>Keg</F_C_NAME>
+<F_C_TEMPERATURE>45.0000000</F_C_TEMPERATURE>
+<F_C_TYPE>1</F_C_TYPE>
+<F_C_PRIMER_NAME>Forced Carbonation</F_C_PRIMER_NAME>
+<F_C_CARB_RATE>100.0000000</F_C_CARB_RATE>
+<F_C_NOTES>Keg with forced carbonation which is the method used by most home brewers with kegs</F_C_NOTES>
+</Carbonation>
+<Carbonation><_MOD_>2011-02-23</_MOD_>
+<F_C_NAME>Honey</F_C_NAME>
+<F_C_TEMPERATURE>70.0000000</F_C_TEMPERATURE>
+<F_C_TYPE>0</F_C_TYPE>
+<F_C_PRIMER_NAME>Honey</F_C_PRIMER_NAME>
+<F_C_CARB_RATE>90.5000000</F_C_CARB_RATE>
+<F_C_NOTES>Honey is highly fermentable, but can take a very long time to reach full carbonation</F_C_NOTES>
+</Carbonation>
+<Carbonation><_MOD_>2011-02-23</_MOD_>
+<F_C_NAME>Dry Malt Extract</F_C_NAME>
+<F_C_TEMPERATURE>70.0000000</F_C_TEMPERATURE>
+<F_C_TYPE>0</F_C_TYPE>
+<F_C_PRIMER_NAME>Dry Malt Extract</F_C_PRIMER_NAME>
+<F_C_CARB_RATE>65.0000000</F_C_CARB_RATE>
+<F_C_NOTES>Dry malt extract is max 65% fermentable (relative to corn sugar) if fresh.  If the DME is not fresh you should reduce this by about 10%</F_C_NOTES>
+</Carbonation>
+<Carbonation><_MOD_>2011-02-23</_MOD_>
+<F_C_NAME>Corn Sugar</F_C_NAME>
+<F_C_TEMPERATURE>70.0000000</F_C_TEMPERATURE>
+<F_C_TYPE>0</F_C_TYPE>
+<F_C_PRIMER_NAME>Corn Sugar</F_C_PRIMER_NAME>
+<F_C_CARB_RATE>100.0000000</F_C_CARB_RATE>
+<F_C_NOTES>Use corn sugar for priming the beer</F_C_NOTES>
+</Carbonation>
+</Data>
+<_TExpanded>1</_TExpanded>
+<TExtra>0</TExtra>
+</Carbonation>

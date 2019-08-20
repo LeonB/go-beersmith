@@ -2,6 +2,7 @@ package bsmx
 
 import (
 	"encoding/xml"
+	"io"
 	"os"
 
 	"github.com/leonb/go-beersmith/units"
@@ -25,6 +26,7 @@ type File struct {
 	Grains               Grains               `xml:"Data>Grain"`
 	Hops                 Hops                 `xml:"Data>Hop"`
 	MashProfiles         MashProfiles         `xml:"Data>Mash"`
+	Miscs                Miscs                `xml:"Data>Misc"`
 	Recipes              Recipes              `xml:"Data>Recipe"`
 	Styles               Styles               `xml:"Data>Style"`
 	Tables               Tables               `xml:"Data>Table"`
@@ -45,6 +47,10 @@ func (f *File) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
 	return err
 }
 
+func (f *File) ToXML() ([]byte, error) {
+	return xml.Marshal(f)
+}
+
 func (f *File) AllRecipes() Recipes {
 	recipes := Recipes{}
 	for _, recipe := range f.Recipes {
@@ -61,9 +67,19 @@ func Open(name string) (*File, error) {
 		return nil, err
 	}
 
-	dec := xml.NewDecoder(f)
+	return Read(f)
+}
+
+func ReadBytes(b []byte) (*File, error) {
+	file := File{}
+	err := xml.Unmarshal(b, &file)
+	return &file, err
+}
+
+func Read(r io.Reader) (*File, error) {
+	dec := xml.NewDecoder(r)
 	// dec.Entity = xml.HTMLEntity
 	file := File{}
-	err = dec.Decode(&file)
+	err := dec.Decode(&file)
 	return &file, err
 }
