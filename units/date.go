@@ -2,6 +2,7 @@ package units
 
 import (
 	"encoding/xml"
+	"strings"
 	"time"
 
 	"github.com/aodin/date"
@@ -16,6 +17,8 @@ func (d *Date) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
 		return err
 	}
 
+	value = strings.TrimSpace(value)
+
 	if value == "" {
 		return nil
 	}
@@ -26,4 +29,8 @@ func (d *Date) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
 		*d = Date{Time: d2}
 	}
 	return err
+}
+
+func (d Date) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
+	return e.EncodeElement(d.Format("2006-01-02"), start)
 }

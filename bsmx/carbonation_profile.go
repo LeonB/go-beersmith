@@ -5,6 +5,7 @@ import "github.com/leonb/go-beersmith/units"
 type CarbonationProfiles []CarbonationProfile
 
 type CarbonationProfile struct {
+	MOD         units.Date             `xml:"_MOD_"`
 	Name        string                 `xml:"F_C_NAME"`
 	Temperature units.Temperature      `xml:"F_C_TEMPERATURE"`
 	Type        CarbonationProfileType `xml:"F_C_TYPE"`

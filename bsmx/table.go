@@ -20,7 +20,7 @@ type Table struct {
 	Owndata  units.Bool `xml:"Owndata"`
 	TID      int        `xml:"TID"`
 	Size     int        `xml:"Size"`
-	_XName   *_XName    `xml:"_XName"`
+	XName    String     `xml:"_XName"`
 	Allocinc int        `xml:"Allocinc"`
 	// Data       *Data      `xml:"Data"`
 	Recipes    Recipes    `xml:"Data>Recipe"`

@@ -5,14 +5,15 @@ import "github.com/leonb/go-beersmith/units"
 type FermentationProfiles []FermentationProfile
 
 type FermentationProfile struct {
-	Name                    string                  `xml:"F_A_NAME"`
+	MOD                     String                  `xml:"_MOD_,omitempty"`
+	Name                    String                  `xml:"F_A_NAME"`
 	PrimaryTemperature      units.Temperature       `xml:"F_A_PRIM_TEMP"`
 	PrimaryEndTemperature   units.Temperature       `xml:"F_A_PRIM_END_TEMP"`
 	SecundaryTemperature    units.Temperature       `xml:"F_A_SEC_TEMP"`
 	SecundaryEndTemperature units.Temperature       `xml:"F_A_SEC_END_TEMP"`
 	TertiaryTemperature     units.Temperature       `xml:"F_A_TERT_TEMP"`
-	TertiaryEndTemperature  units.Temperature       `xml:"F_A_TERT_END_TEMP"`
 	AgeTemperature          units.Temperature       `xml:"F_A_AGE_TEMP"`
+	TertiaryEndTemperature  units.Temperature       `xml:"F_A_TERT_END_TEMP"`
 	EndAgeTemperature       units.Temperature       `xml:"F_A_END_AGE_TEMP"`
 	BulkTemperature         units.Temperature       `xml:"F_A_BULK_TEMP"`
 	BulkEndTemperature      units.Temperature       `xml:"F_A_BULK_END_TEMP"`
@@ -23,7 +24,7 @@ type FermentationProfile struct {
 	BulkDays                units.Duration          `xml:"F_A_BULK_DAYS"`
 	Age                     units.Duration          `xml:"F_A_AGE"`
 	Type                    FermentationProfileType `xml:"F_A_TYPE"`
-	Notes                   string                  `xml:"F_A_NOTES"`
+	Notes                   String                  `xml:"F_A_NOTES"`
 }
 
 type FermentationProfileType int

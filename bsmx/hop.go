@@ -2,6 +2,8 @@ package bsmx
 
 import "github.com/leonb/go-beersmith/units"
 
+type Hops []Hop
+
 type Hop struct {
 	Alpha      units.Percentage `xml:"F_H_ALPHA"`
 	Amount     units.Weight     `xml:"F_H_AMOUNT"`
@@ -22,7 +24,7 @@ type Hop struct {
 	Type       HopType          `xml:"F_H_TYPE"`
 	Use        HopUse           `xml:"F_H_USE"`
 	Order      int              `xml:"F_ORDER"`
-	_MOD_      units.Date       `xml:"_MOD_"`
+	MOD        units.Date       `xml:"_MOD_"`
 }
 
 type HopForm int

@@ -14,6 +14,4 @@ package bsmx
 
 type TimeUnit int
 
-type _XName string
-
 type Type int

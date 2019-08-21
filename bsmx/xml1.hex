@@ -1,0 +1,1207 @@
+0000000  \t   <   S   e   l   e   c   t   i   o   n   s   >  \r  \n  \t
+0000020           <   _   M   O   D   _   >  \r  \n  \t                
+0000040   2   0   1   8   -   0   4   -   1   9   <   /   _   M   O   D
+0000060   _   >  \r  \n  \t           <   N   a   m   e   >  \r  \n  \t
+0000100                   S   e   l   e   c   t   i   o   n   s   <   /
+0000120   N   a   m   e   >  \r  \n  \t           <   T   y   p   e   >
+0000140  \r  \n  \t                   7   4   8   2   <   /   T   y   p
+0000160   e   >  \r  \n  \t           <   D   i   r   t   y   >  \r  \n
+0000200  \t                   0   <   /   D   i   r   t   y   >  \r  \n
+0000220  \t           <   O   w   n   d   a   t   a   >  \r  \n  \t    
+0000240               0   <   /   O   w   n   d   a   t   a   >  \r  \n
+0000260  \t           <   T   I   D   >  \r  \n  \t                   7
+0000300   4   8   2   <   /   T   I   D   >  \r  \n  \t           <   S
+0000320   i   z   e   >  \r  \n  \t                   1   4   <   /   S
+0000340   i   z   e   >  \r  \n  \t           <   _   X   N   a   m   e
+0000360   >  \r  \n  \t                   S   e   l   e   c   t   i   o
+0000400   n   s   <   /   _   X   N   a   m   e   >  \r  \n  \t        
+0000420   <   A   l   l   o   c   i   n   c   >  \r  \n  \t            
+0000440       1   6   <   /   A   l   l   o   c   i   n   c   >  \r  \n
+0000460  \t           <   D   a   t   a   >  \r  \n  \t                
+0000500   <   A   g   e   >  \r  \n  \t                           <   _
+0000520   M   O   D   _   >  \r  \n  \t                                
+0000540   1   9   7   2   -   0   4   -   0   1   <   /   _   M   O   D
+0000560   _   >  \r  \n  \t                           <   F   _   A   _
+0000600   N   A   M   E   >  \r  \n  \t                                
+0000620   W   i   n   e   ,       T   h   r   e   e       S   t   a   g
+0000640   e   ,       R   a   p   i   d   <   /   F   _   A   _   N   A
+0000660   M   E   >  \r  \n  \t                           <   F   _   A
+0000700   _   P   R   I   M   _   T   E   M   P   >  \r  \n  \t        
+0000720                           7   2   .   0   0   0   0   0   0   0
+0000740   <   /   F   _   A   _   P   R   I   M   _   T   E   M   P   >
+0000760  \r  \n  \t                           <   F   _   A   _   P   R
+0001000   I   M   _   E   N   D   _   T   E   M   P   >  \r  \n  \t    
+0001020                               7   2   .   0   0   0   0   0   0
+0001040   0   <   /   F   _   A   _   P   R   I   M   _   E   N   D   _
+0001060   T   E   M   P   >  \r  \n  \t                           <   F
+0001100   _   A   _   S   E   C   _   T   E   M   P   >  \r  \n  \t    
+0001120                               7   2   .   0   0   0   0   0   0
+0001140   0   <   /   F   _   A   _   S   E   C   _   T   E   M   P   >
+0001160  \r  \n  \t                           <   F   _   A   _   S   E
+0001200   C   _   E   N   D   _   T   E   M   P   >  \r  \n  \t        
+0001220                           7   2   .   0   0   0   0   0   0   0
+0001240   <   /   F   _   A   _   S   E   C   _   E   N   D   _   T   E
+0001260   M   P   >  \r  \n  \t                           <   F   _   A
+0001300   _   T   E   R   T   _   T   E   M   P   >  \r  \n  \t        
+0001320                           7   2   .   0   0   0   0   0   0   0
+0001340   <   /   F   _   A   _   T   E   R   T   _   T   E   M   P   >
+0001360  \r  \n  \t                           <   F   _   A   _   A   G
+0001400   E   _   T   E   M   P   >  \r  \n  \t                        
+0001420           7   2   .   0   0   0   0   0   0   0   <   /   F   _
+0001440   A   _   A   G   E   _   T   E   M   P   >  \r  \n  \t        
+0001460                   <   F   _   A   _   T   E   R   T   _   E   N
+0001500   D   _   T   E   M   P   >  \r  \n  \t                        
+0001520           7   2   .   0   0   0   0   0   0   0   <   /   F   _
+0001540   A   _   T   E   R   T   _   E   N   D   _   T   E   M   P   >
+0001560  \r  \n  \t                           <   F   _   A   _   E   N
+0001600   D   _   A   G   E   _   T   E   M   P   >  \r  \n  \t        
+0001620                           7   2   .   0   0   0   0   0   0   0
+0001640   <   /   F   _   A   _   E   N   D   _   A   G   E   _   T   E
+0001660   M   P   >  \r  \n  \t                           <   F   _   A
+0001700   _   B   U   L   K   _   T   E   M   P   >  \r  \n  \t        
+0001720                           7   2   .   0   0   0   0   0   0   0
+0001740   <   /   F   _   A   _   B   U   L   K   _   T   E   M   P   >
+0001760  \r  \n  \t                           <   F   _   A   _   B   U
+0002000   L   K   _   E   N   D   _   T   E   M   P   >  \r  \n  \t    
+0002020                               7   2   .   0   0   0   0   0   0
+0002040   0   <   /   F   _   A   _   B   U   L   K   _   E   N   D   _
+0002060   T   E   M   P   >  \r  \n  \t                           <   F
+0002100   _   A   _   E   N   D   _   T   E   M   P   S   _   S   E   T
+0002120   >  \r  \n  \t                                   1   <   /   F
+0002140   _   A   _   E   N   D   _   T   E   M   P   S   _   S   E   T
+0002160   >  \r  \n  \t                           <   F   _   A   _   P
+0002200   R   I   M   _   D   A   Y   S   >  \r  \n  \t                
+0002220                   7   .   0   0   0   0   0   0   0   <   /   F
+0002240   _   A   _   P   R   I   M   _   D   A   Y   S   >  \r  \n  \t
+0002260                           <   F   _   A   _   S   E   C   _   D
+0002300   A   Y   S   >  \r  \n  \t                                   7
+0002320   .   0   0   0   0   0   0   0   <   /   F   _   A   _   S   E
+0002340   C   _   D   A   Y   S   >  \r  \n  \t                        
+0002360   <   F   _   A   _   T   E   R   T   _   D   A   Y   S   >  \r
+0002400  \n  \t                                   3   0   .   0   0   0
+0002420   0   0   0   0   <   /   F   _   A   _   T   E   R   T   _   D
+0002440   A   Y   S   >  \r  \n  \t                           <   F   _
+0002460   A   _   B   U   L   K   _   D   A   Y   S   >  \r  \n  \t    
+0002500                               9   0   .   0   0   0   0   0   0
+0002520   0   <   /   F   _   A   _   B   U   L   K   _   D   A   Y   S
+0002540   >  \r  \n  \t                           <   F   _   A   _   A
+0002560   G   E   >  \r  \n  \t                                   3   0
+0002600   .   0   0   0   0   0   0   0   <   /   F   _   A   _   A   G
+0002620   E   >  \r  \n  \t                           <   F   _   A   _
+0002640   T   Y   P   E   >  \r  \n  \t                                
+0002660   2   <   /   F   _   A   _   T   Y   P   E   >  \r  \n  \t    
+0002700                       <   F   _   A   _   N   O   T   E   S   >
+0002720  \r  \n  \t                                   T   h   r   e   e
+0002740       s   t   a   g   e       f   e   r   m   e   n   t   a   t
+0002760   i   o   n       f   o   r       a       w   i   n   e       o
+0003000   r       w   i   n   e       k   i   t   .           S   e   v
+0003020   e   n       d   a   y       p   r   i   m   a   r   y       a
+0003040   n   d       s   e   c   o   n   d   a   r   y   ,       3   0
+0003060       d   a   y   s       f   o   r       c   l   e   a   r   i
+0003100   n   g       b   e   f   o   r   e       b   o   t   t   l   i
+0003120   n   g   .           A   g   e       3   0       d   a   y   s
+0003140       o   r       m   o   r   e       b   e   f   o   r   e    
+0003160   d   r   i   n   k   i   n   g   .   <   /   F   _   A   _   N
+0003200   O   T   E   S   >  \r  \n  \t                           <   /
+0003220   A   g   e   >  \r  \n  \t                   <   A   g   e   >
+0003240  \r  \n  \t                           <   _   M   O   D   _   >
+0003260  \r  \n  \t                                   1   9   7   2   -
+0003300   0   4   -   1   6   <   /   _   M   O   D   _   >  \r  \n  \t
+0003320                           <   F   _   A   _   N   A   M   E   >
+0003340  \r  \n  \t                                   W   i   n   e   ,
+0003360       F   o   u   r       S   t   a   g   e   ,       P   r   e
+0003400   m   i   u   m   <   /   F   _   A   _   N   A   M   E   >  \r
+0003420  \n  \t                           <   F   _   A   _   P   R   I
+0003440   M   _   T   E   M   P   >  \r  \n  \t                        
+0003460           7   2   .   0   0   0   0   0   0   0   <   /   F   _
+0003500   A   _   P   R   I   M   _   T   E   M   P   >  \r  \n  \t    
+0003520                       <   F   _   A   _   P   R   I   M   _   E
+0003540   N   D   _   T   E   M   P   >  \r  \n  \t                    
+0003560               7   2   .   0   0   0   0   0   0   0   <   /   F
+0003600   _   A   _   P   R   I   M   _   E   N   D   _   T   E   M   P
+0003620   >  \r  \n  \t                           <   F   _   A   _   S
+0003640   E   C   _   T   E   M   P   >  \r  \n  \t                    
+0003660               7   2   .   0   0   0   0   0   0   0   <   /   F
+0003700   _   A   _   S   E   C   _   T   E   M   P   >  \r  \n  \t    
+0003720                       <   F   _   A   _   S   E   C   _   E   N
+0003740   D   _   T   E   M   P   >  \r  \n  \t                        
+0003760           7   2   .   0   0   0   0   0   0   0   <   /   F   _
+0004000   A   _   S   E   C   _   E   N   D   _   T   E   M   P   >  \r
+0004020  \n  \t                           <   F   _   A   _   T   E   R
+0004040   T   _   T   E   M   P   >  \r  \n  \t                        
+0004060           7   2   .   0   0   0   0   0   0   0   <   /   F   _
+0004100   A   _   T   E   R   T   _   T   E   M   P   >  \r  \n  \t    
+0004120                       <   F   _   A   _   A   G   E   _   T   E
+0004140   M   P   >  \r  \n  \t                                   7   2
+0004160   .   0   0   0   0   0   0   0   <   /   F   _   A   _   A   G
+0004200   E   _   T   E   M   P   >  \r  \n  \t                        
+0004220   <   F   _   A   _   T   E   R   T   _   E   N   D   _   T   E
+0004240   M   P   >  \r  \n  \t                                   7   2
+0004260   .   0   0   0   0   0   0   0   <   /   F   _   A   _   T   E
+0004300   R   T   _   E   N   D   _   T   E   M   P   >  \r  \n  \t    
+0004320                       <   F   _   A   _   E   N   D   _   A   G
+0004340   E   _   T   E   M   P   >  \r  \n  \t                        
+0004360           7   2   .   0   0   0   0   0   0   0   <   /   F   _
+0004400   A   _   E   N   D   _   A   G   E   _   T   E   M   P   >  \r
+0004420  \n  \t                           <   F   _   A   _   B   U   L
+0004440   K   _   T   E   M   P   >  \r  \n  \t                        
+0004460           7   2   .   0   0   0   0   0   0   0   <   /   F   _
+0004500   A   _   B   U   L   K   _   T   E   M   P   >  \r  \n  \t    
+0004520                       <   F   _   A   _   B   U   L   K   _   E
+0004540   N   D   _   T   E   M   P   >  \r  \n  \t                    
+0004560               7   2   .   0   0   0   0   0   0   0   <   /   F
+0004600   _   A   _   B   U   L   K   _   E   N   D   _   T   E   M   P
+0004620   >  \r  \n  \t                           <   F   _   A   _   E
+0004640   N   D   _   T   E   M   P   S   _   S   E   T   >  \r  \n  \t
+0004660                                   1   <   /   F   _   A   _   E
+0004700   N   D   _   T   E   M   P   S   _   S   E   T   >  \r  \n  \t
+0004720                           <   F   _   A   _   P   R   I   M   _
+0004740   D   A   Y   S   >  \r  \n  \t                                
+0004760   7   .   0   0   0   0   0   0   0   <   /   F   _   A   _   P
+0005000   R   I   M   _   D   A   Y   S   >  \r  \n  \t                
+0005020           <   F   _   A   _   S   E   C   _   D   A   Y   S   >
+0005040  \r  \n  \t                                   7   .   0   0   0
+0005060   0   0   0   0   <   /   F   _   A   _   S   E   C   _   D   A
+0005100   Y   S   >  \r  \n  \t                           <   F   _   A
+0005120   _   T   E   R   T   _   D   A   Y   S   >  \r  \n  \t        
+0005140                           3   0   .   0   0   0   0   0   0   0
+0005160   <   /   F   _   A   _   T   E   R   T   _   D   A   Y   S   >
+0005200  \r  \n  \t                           <   F   _   A   _   B   U
+0005220   L   K   _   D   A   Y   S   >  \r  \n  \t                    
+0005240               9   0   .   0   0   0   0   0   0   0   <   /   F
+0005260   _   A   _   B   U   L   K   _   D   A   Y   S   >  \r  \n  \t
+0005300                           <   F   _   A   _   A   G   E   >  \r
+0005320  \n  \t                                   1   8   0   .   0   0
+0005340   0   0   0   0   0   <   /   F   _   A   _   A   G   E   >  \r
+0005360  \n  \t                           <   F   _   A   _   T   Y   P
+0005400   E   >  \r  \n  \t                                   3   <   /
+0005420   F   _   A   _   T   Y   P   E   >  \r  \n  \t                
+0005440           <   F   _   A   _   N   O   T   E   S   >  \r  \n  \t
+0005460                                   E   x   t   e   n   d   e   d
+0005500       f   o   u   r       s   t   a   g   e       f   e   r   m
+0005520   e   n   t   a   t   i   o   n       f   o   r       a       p
+0005540   r   e   m   i   u   m       w   i   n   e       o   r       w
+0005560   i   n   e       k   i   t   .           S   e   v   e   n    
+0005600   d   a   y       p   r   i   m   a   r   y       a   n   d    
+0005620   s   e   c   o   n   d   a   r   y   ,       3   0       d   a
+0005640   y   s       f   o   r       c   l   e   a   r   i   n   g    
+0005660   a   n   d       9   0       d   a   y   s       t   o       b
+0005700   u   l   k       a   g   e       b   e   f   o   r   e       b
+0005720   o   t   t   l   i   n   g   .           A   g   e       1   8
+0005740   0       d   a   y   s       o   r       m   o   r   e       b
+0005760   e   f   o   r   e       d   r   i   n   k   i   n   g   .   <
+0006000   /   F   _   A   _   N   O   T   E   S   >  \r  \n  \t        
+0006020                   <   /   A   g   e   >  \r  \n  \t            
+0006040       <   A   g   e   >  \r  \n  \t                           <
+0006060   _   M   O   D   _   >  \r  \n  \t                            
+0006100       2   0   1   8   -   0   8   -   1   4   <   /   _   M   O
+0006120   D   _   >  \r  \n  \t                           <   F   _   A
+0006140   _   N   A   M   E   >  \r  \n  \t                            
+0006160       M   e   a   d   ,       T   h   r   e   e       S   t   a
+0006200   g   e   ,       S   t   a   n   d   a   r   d   <   /   F   _
+0006220   A   _   N   A   M   E   >  \r  \n  \t                        
+0006240   <   F   _   A   _   P   R   I   M   _   T   E   M   P   >  \r
+0006260  \n  \t                                   6   7   .   0   0   0
+0006300   0   0   0   0   <   /   F   _   A   _   P   R   I   M   _   T
+0006320   E   M   P   >  \r  \n  \t                           <   F   _
+0006340   A   _   P   R   I   M   _   E   N   D   _   T   E   M   P   >
+0006360  \r  \n  \t                                   6   7   .   0   0
+0006400   0   0   0   0   0   <   /   F   _   A   _   P   R   I   M   _
+0006420   E   N   D   _   T   E   M   P   >  \r  \n  \t                
+0006440           <   F   _   A   _   S   E   C   _   T   E   M   P   >
+0006460  \r  \n  \t                                   6   8   .   0   0
+0006500   0   0   0   0   0   <   /   F   _   A   _   S   E   C   _   T
+0006520   E   M   P   >  \r  \n  \t                           <   F   _
+0006540   A   _   S   E   C   _   E   N   D   _   T   E   M   P   >  \r
+0006560  \n  \t                                   6   8   .   0   0   0
+0006600   0   0   0   0   <   /   F   _   A   _   S   E   C   _   E   N
+0006620   D   _   T   E   M   P   >  \r  \n  \t                        
+0006640   <   F   _   A   _   T   E   R   T   _   T   E   M   P   >  \r
+0006660  \n  \t                                   6   8   .   0   0   0
+0006700   0   0   0   0   <   /   F   _   A   _   T   E   R   T   _   T
+0006720   E   M   P   >  \r  \n  \t                           <   F   _
+0006740   A   _   A   G   E   _   T   E   M   P   >  \r  \n  \t        
+0006760                           6   8   .   0   0   0   0   0   0   0
+0007000   <   /   F   _   A   _   A   G   E   _   T   E   M   P   >  \r
+0007020  \n  \t                           <   F   _   A   _   T   E   R
+0007040   T   _   E   N   D   _   T   E   M   P   >  \r  \n  \t        
+0007060                           6   8   .   0   0   0   0   0   0   0
+0007100   <   /   F   _   A   _   T   E   R   T   _   E   N   D   _   T
+0007120   E   M   P   >  \r  \n  \t                           <   F   _
+0007140   A   _   E   N   D   _   A   G   E   _   T   E   M   P   >  \r
+0007160  \n  \t                                   6   8   .   0   0   0
+0007200   0   0   0   0   <   /   F   _   A   _   E   N   D   _   A   G
+0007220   E   _   T   E   M   P   >  \r  \n  \t                        
+0007240   <   F   _   A   _   B   U   L   K   _   T   E   M   P   >  \r
+0007260  \n  \t                                   6   5   .   0   0   0
+0007300   0   0   0   0   <   /   F   _   A   _   B   U   L   K   _   T
+0007320   E   M   P   >  \r  \n  \t                           <   F   _
+0007340   A   _   B   U   L   K   _   E   N   D   _   T   E   M   P   >
+0007360  \r  \n  \t                                   6   5   .   0   0
+0007400   0   0   0   0   0   <   /   F   _   A   _   B   U   L   K   _
+0007420   E   N   D   _   T   E   M   P   >  \r  \n  \t                
+0007440           <   F   _   A   _   E   N   D   _   T   E   M   P   S
+0007460   _   S   E   T   >  \r  \n  \t                                
+0007500   1   <   /   F   _   A   _   E   N   D   _   T   E   M   P   S
+0007520   _   S   E   T   >  \r  \n  \t                           <   F
+0007540   _   A   _   P   R   I   M   _   D   A   Y   S   >  \r  \n  \t
+0007560                                   1   4   .   0   0   0   0   0
+0007600   0   0   <   /   F   _   A   _   P   R   I   M   _   D   A   Y
+0007620   S   >  \r  \n  \t                           <   F   _   A   _
+0007640   S   E   C   _   D   A   Y   S   >  \r  \n  \t                
+0007660                   1   4   .   0   0   0   0   0   0   0   <   /
+0007700   F   _   A   _   S   E   C   _   D   A   Y   S   >  \r  \n  \t
+0007720                           <   F   _   A   _   T   E   R   T   _
+0007740   D   A   Y   S   >  \r  \n  \t                                
+0007760   3   0   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0010000   T   E   R   T   _   D   A   Y   S   >  \r  \n  \t            
+0010020               <   F   _   A   _   B   U   L   K   _   D   A   Y
+0010040   S   >  \r  \n  \t                                   3   0   .
+0010060   0   0   0   0   0   0   0   <   /   F   _   A   _   B   U   L
+0010100   K   _   D   A   Y   S   >  \r  \n  \t                        
+0010120   <   F   _   A   _   A   G   E   >  \r  \n  \t                
+0010140                   3   2   .   0   0   0   0   0   0   0   <   /
+0010160   F   _   A   _   A   G   E   >  \r  \n  \t                    
+0010200       <   F   _   A   _   T   Y   P   E   >  \r  \n  \t        
+0010220                           2   <   /   F   _   A   _   T   Y   P
+0010240   E   >  \r  \n  \t                           <   F   _   A   _
+0010260   N   O   T   E   S   >  \r  \n  \t                            
+0010300       T   y   p   i   c   a   l       9   0       d   a   y    
+0010320   p   r   o   f   i   l   e       f   o   r       f   e   r   m
+0010340   e   n   t   i   n   g       a       m   e   a   d   .        
+0010360   B   u   l   k       o   f       f   e   r   m   e   n   t   a
+0010400   t   i   o   n       i   s       d   o   n   e       i   n    
+0010420   t   h   e       p   r   i   m   a   r   y       a   n   d    
+0010440   f   i   n   i   s   h   e   d       i   n       s   e   c   o
+0010460   n   d   a   y   .           C   l   e   a   r   i   n   g    
+0010500   t   a   k   e   s       p   l   a   c   e       p   r   i   m
+0010520   a   r   i   l   y       i   n       t   e   r   t   i   a   r
+0010540   y   ,       a   n   d       o   n   e       f   i   n   a   l
+0010560       t   r   a   n   s   f   e   r       i   s       d   o   n
+0010600   e       f   o   r       f   i   n   a   l       c   l   a   r
+0010620   i   t   y       b   e   f   o   r   e       b   o   t   t   l
+0010640   i   n   g   .   <   /   F   _   A   _   N   O   T   E   S   >
+0010660  \r  \n  \t                           <   /   A   g   e   >  \r
+0010700  \n  \t                   <   A   g   e   >  \r  \n  \t        
+0010720                   <   _   M   O   D   _   >  \r  \n  \t        
+0010740                           1   9   7   2   -   0   4   -   1   6
+0010760   <   /   _   M   O   D   _   >  \r  \n  \t                    
+0011000       <   F   _   A   _   N   A   M   E   >  \r  \n  \t        
+0011020                           M   e   a   d   ,       F   o   u   r
+0011040       S   t   a   g   e   ,       E   x   t   e   n   d   e   d
+0011060   <   /   F   _   A   _   N   A   M   E   >  \r  \n  \t        
+0011100                   <   F   _   A   _   P   R   I   M   _   T   E
+0011120   M   P   >  \r  \n  \t                                   6   7
+0011140   .   0   0   0   0   0   0   0   <   /   F   _   A   _   P   R
+0011160   I   M   _   T   E   M   P   >  \r  \n  \t                    
+0011200       <   F   _   A   _   P   R   I   M   _   E   N   D   _   T
+0011220   E   M   P   >  \r  \n  \t                                   6
+0011240   7   .   0   0   0   0   0   0   0   <   /   F   _   A   _   P
+0011260   R   I   M   _   E   N   D   _   T   E   M   P   >  \r  \n  \t
+0011300                           <   F   _   A   _   S   E   C   _   T
+0011320   E   M   P   >  \r  \n  \t                                   6
+0011340   8   .   0   0   0   0   0   0   0   <   /   F   _   A   _   S
+0011360   E   C   _   T   E   M   P   >  \r  \n  \t                    
+0011400       <   F   _   A   _   S   E   C   _   E   N   D   _   T   E
+0011420   M   P   >  \r  \n  \t                                   6   8
+0011440   .   0   0   0   0   0   0   0   <   /   F   _   A   _   S   E
+0011460   C   _   E   N   D   _   T   E   M   P   >  \r  \n  \t        
+0011500                   <   F   _   A   _   T   E   R   T   _   T   E
+0011520   M   P   >  \r  \n  \t                                   6   8
+0011540   .   0   0   0   0   0   0   0   <   /   F   _   A   _   T   E
+0011560   R   T   _   T   E   M   P   >  \r  \n  \t                    
+0011600       <   F   _   A   _   A   G   E   _   T   E   M   P   >  \r
+0011620  \n  \t                                   6   8   .   0   0   0
+0011640   0   0   0   0   <   /   F   _   A   _   A   G   E   _   T   E
+0011660   M   P   >  \r  \n  \t                           <   F   _   A
+0011700   _   T   E   R   T   _   E   N   D   _   T   E   M   P   >  \r
+0011720  \n  \t                                   6   8   .   0   0   0
+0011740   0   0   0   0   <   /   F   _   A   _   T   E   R   T   _   E
+0011760   N   D   _   T   E   M   P   >  \r  \n  \t                    
+0012000       <   F   _   A   _   E   N   D   _   A   G   E   _   T   E
+0012020   M   P   >  \r  \n  \t                                   6   8
+0012040   .   0   0   0   0   0   0   0   <   /   F   _   A   _   E   N
+0012060   D   _   A   G   E   _   T   E   M   P   >  \r  \n  \t        
+0012100                   <   F   _   A   _   B   U   L   K   _   T   E
+0012120   M   P   >  \r  \n  \t                                   6   8
+0012140   .   0   0   0   0   0   0   0   <   /   F   _   A   _   B   U
+0012160   L   K   _   T   E   M   P   >  \r  \n  \t                    
+0012200       <   F   _   A   _   B   U   L   K   _   E   N   D   _   T
+0012220   E   M   P   >  \r  \n  \t                                   6
+0012240   8   .   0   0   0   0   0   0   0   <   /   F   _   A   _   B
+0012260   U   L   K   _   E   N   D   _   T   E   M   P   >  \r  \n  \t
+0012300                           <   F   _   A   _   E   N   D   _   T
+0012320   E   M   P   S   _   S   E   T   >  \r  \n  \t                
+0012340                   1   <   /   F   _   A   _   E   N   D   _   T
+0012360   E   M   P   S   _   S   E   T   >  \r  \n  \t                
+0012400           <   F   _   A   _   P   R   I   M   _   D   A   Y   S
+0012420   >  \r  \n  \t                                   1   4   .   0
+0012440   0   0   0   0   0   0   <   /   F   _   A   _   P   R   I   M
+0012460   _   D   A   Y   S   >  \r  \n  \t                           <
+0012500   F   _   A   _   S   E   C   _   D   A   Y   S   >  \r  \n  \t
+0012520                                   1   4   .   0   0   0   0   0
+0012540   0   0   <   /   F   _   A   _   S   E   C   _   D   A   Y   S
+0012560   >  \r  \n  \t                           <   F   _   A   _   T
+0012600   E   R   T   _   D   A   Y   S   >  \r  \n  \t                
+0012620                   3   0   .   0   0   0   0   0   0   0   <   /
+0012640   F   _   A   _   T   E   R   T   _   D   A   Y   S   >  \r  \n
+0012660  \t                           <   F   _   A   _   B   U   L   K
+0012700   _   D   A   Y   S   >  \r  \n  \t                            
+0012720       9   0   .   0   0   0   0   0   0   0   <   /   F   _   A
+0012740   _   B   U   L   K   _   D   A   Y   S   >  \r  \n  \t        
+0012760                   <   F   _   A   _   A   G   E   >  \r  \n  \t
+0013000                                   3   2   .   0   0   0   0   0
+0013020   0   0   <   /   F   _   A   _   A   G   E   >  \r  \n  \t    
+0013040                       <   F   _   A   _   T   Y   P   E   >  \r
+0013060  \n  \t                                   3   <   /   F   _   A
+0013100   _   T   Y   P   E   >  \r  \n  \t                           <
+0013120   F   _   A   _   N   O   T   E   S   >  \r  \n  \t            
+0013140                       E   x   t   e   n   d   e   d       a   g
+0013160   i   n   g       p   r   o   f   i   l   e       f   o   r    
+0013200   a       m   e   a   d       -       a   b   o   u   t       1
+0013220   8   0       d   a   y   s       t   o   t   a   l   .        
+0013240   B   u   l   k       o   f       f   e   r   m   e   n   t   a
+0013260   t   i   o   n       i   s       d   o   n   e       i   n    
+0013300   t   h   e       p   r   i   m   a   r   y       a   n   d    
+0013320   f   i   n   i   s   h   e   d       i   n       s   e   c   o
+0013340   n   d   a   y   .           C   l   e   a   r   i   n   g    
+0013360   t   a   k   e   s       p   l   a   c   e       p   r   i   m
+0013400   a   r   i   l   y       i   n       t   e   r   t   i   a   r
+0013420   y   ,       a   n   d       t   w   o       t   r   a   n   s
+0013440   f   e   r   s       a   r   e       d   o   n   e       d   u
+0013460   r   i   n   g       a   g   i   n   g       f   o   r       c
+0013500   l   a   r   i   t   y   .   <   /   F   _   A   _   N   O   T
+0013520   E   S   >  \r  \n  \t                           <   /   A   g
+0013540   e   >  \r  \n  \t                   <   A   g   e   >  \r  \n
+0013560  \t                           <   _   M   O   D   _   >  \r  \n
+0013600  \t                                   1   9   7   2   -   0   4
+0013620   -   1   4   <   /   _   M   O   D   _   >  \r  \n  \t        
+0013640                   <   F   _   A   _   N   A   M   E   >  \r  \n
+0013660  \t                                   C   i   d   e   r   ,    
+0013700   T   w   o       S   t   a   g   e   <   /   F   _   A   _   N
+0013720   A   M   E   >  \r  \n  \t                           <   F   _
+0013740   A   _   P   R   I   M   _   T   E   M   P   >  \r  \n  \t    
+0013760                               6   7   .   0   0   0   0   0   0
+0014000   0   <   /   F   _   A   _   P   R   I   M   _   T   E   M   P
+0014020   >  \r  \n  \t                           <   F   _   A   _   P
+0014040   R   I   M   _   E   N   D   _   T   E   M   P   >  \r  \n  \t
+0014060                                   6   7   .   0   0   0   0   0
+0014100   0   0   <   /   F   _   A   _   P   R   I   M   _   E   N   D
+0014120   _   T   E   M   P   >  \r  \n  \t                           <
+0014140   F   _   A   _   S   E   C   _   T   E   M   P   >  \r  \n  \t
+0014160                                   6   7   .   0   0   0   0   0
+0014200   0   0   <   /   F   _   A   _   S   E   C   _   T   E   M   P
+0014220   >  \r  \n  \t                           <   F   _   A   _   S
+0014240   E   C   _   E   N   D   _   T   E   M   P   >  \r  \n  \t    
+0014260                               6   7   .   0   0   0   0   0   0
+0014300   0   <   /   F   _   A   _   S   E   C   _   E   N   D   _   T
+0014320   E   M   P   >  \r  \n  \t                           <   F   _
+0014340   A   _   T   E   R   T   _   T   E   M   P   >  \r  \n  \t    
+0014360                               6   5   .   0   0   0   0   0   0
+0014400   0   <   /   F   _   A   _   T   E   R   T   _   T   E   M   P
+0014420   >  \r  \n  \t                           <   F   _   A   _   A
+0014440   G   E   _   T   E   M   P   >  \r  \n  \t                    
+0014460               6   5   .   0   0   0   0   0   0   0   <   /   F
+0014500   _   A   _   A   G   E   _   T   E   M   P   >  \r  \n  \t    
+0014520                       <   F   _   A   _   T   E   R   T   _   E
+0014540   N   D   _   T   E   M   P   >  \r  \n  \t                    
+0014560               6   5   .   0   0   0   0   0   0   0   <   /   F
+0014600   _   A   _   T   E   R   T   _   E   N   D   _   T   E   M   P
+0014620   >  \r  \n  \t                           <   F   _   A   _   E
+0014640   N   D   _   A   G   E   _   T   E   M   P   >  \r  \n  \t    
+0014660                               6   5   .   0   0   0   0   0   0
+0014700   0   <   /   F   _   A   _   E   N   D   _   A   G   E   _   T
+0014720   E   M   P   >  \r  \n  \t                           <   F   _
+0014740   A   _   B   U   L   K   _   T   E   M   P   >  \r  \n  \t    
+0014760                               6   5   .   0   0   0   0   0   0
+0015000   0   <   /   F   _   A   _   B   U   L   K   _   T   E   M   P
+0015020   >  \r  \n  \t                           <   F   _   A   _   B
+0015040   U   L   K   _   E   N   D   _   T   E   M   P   >  \r  \n  \t
+0015060                                   6   5   .   0   0   0   0   0
+0015100   0   0   <   /   F   _   A   _   B   U   L   K   _   E   N   D
+0015120   _   T   E   M   P   >  \r  \n  \t                           <
+0015140   F   _   A   _   E   N   D   _   T   E   M   P   S   _   S   E
+0015160   T   >  \r  \n  \t                                   1   <   /
+0015200   F   _   A   _   E   N   D   _   T   E   M   P   S   _   S   E
+0015220   T   >  \r  \n  \t                           <   F   _   A   _
+0015240   P   R   I   M   _   D   A   Y   S   >  \r  \n  \t            
+0015260                       7   .   0   0   0   0   0   0   0   <   /
+0015300   F   _   A   _   P   R   I   M   _   D   A   Y   S   >  \r  \n
+0015320  \t                           <   F   _   A   _   S   E   C   _
+0015340   D   A   Y   S   >  \r  \n  \t                                
+0015360   1   0   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0015400   S   E   C   _   D   A   Y   S   >  \r  \n  \t                
+0015420           <   F   _   A   _   T   E   R   T   _   D   A   Y   S
+0015440   >  \r  \n  \t                                   7   .   0   0
+0015460   0   0   0   0   0   <   /   F   _   A   _   T   E   R   T   _
+0015500   D   A   Y   S   >  \r  \n  \t                           <   F
+0015520   _   A   _   B   U   L   K   _   D   A   Y   S   >  \r  \n  \t
+0015540                                   3   0   .   0   0   0   0   0
+0015560   0   0   <   /   F   _   A   _   B   U   L   K   _   D   A   Y
+0015600   S   >  \r  \n  \t                           <   F   _   A   _
+0015620   A   G   E   >  \r  \n  \t                                   2
+0015640   0   .   0   0   0   0   0   0   0   <   /   F   _   A   _   A
+0015660   G   E   >  \r  \n  \t                           <   F   _   A
+0015700   _   T   Y   P   E   >  \r  \n  \t                            
+0015720       1   <   /   F   _   A   _   T   Y   P   E   >  \r  \n  \t
+0015740                           <   F   _   A   _   N   O   T   E   S
+0015760   >  \r  \n  \t                                   T   w   o    
+0016000   s   t   a   g   e       a   l   e       f   e   r   m   e   n
+0016020   t   a   t   i   o   n       s   u   i   t   a   b   l   e    
+0016040   f   o   r       j   u   s   t       a   b   o   u   t       a
+0016060   n   y       r   e   g   u   l   a   r       c   i   d   e   r
+0016100   .           B   u   l   k       o   f       f   e   r   m   e
+0016120   n   t   a   t   i   o   n       i   s       d   o   n   e    
+0016140   i   n       p   r   i   m   a   r   y   ,       t   h   e   n
+0016160       t   r   a   n   s   f   e   r   r   e   d       t   o    
+0016200   s   e   c   o   n   d   a   r   y       t   o       c   o   m
+0016220   p   l   e   t   e   .           I   f       d   e   s   i   r
+0016240   e   d       y   o   u       c   a   n       a   g   e       i
+0016260   n       a       s   e   p   a   r   a   t   e       f   e   r
+0016300   m   e   n   t   e   r   .   <   /   F   _   A   _   N   O   T
+0016320   E   S   >  \r  \n  \t                           <   /   A   g
+0016340   e   >  \r  \n  \t                   <   A   g   e   >  \r  \n
+0016360  \t                           <   _   M   O   D   _   >  \r  \n
+0016400  \t                                   1   9   7   1   -   1   0
+0016420   -   1   1   <   /   _   M   O   D   _   >  \r  \n  \t        
+0016440                   <   F   _   A   _   N   A   M   E   >  \r  \n
+0016460  \t                                   A   l   e   ,       T   w
+0016500   o       S   t   a   g   e   <   /   F   _   A   _   N   A   M
+0016520   E   >  \r  \n  \t                           <   F   _   A   _
+0016540   P   R   I   M   _   T   E   M   P   >  \r  \n  \t            
+0016560                       6   7   .   0   0   0   0   0   0   0   <
+0016600   /   F   _   A   _   P   R   I   M   _   T   E   M   P   >  \r
+0016620  \n  \t                           <   F   _   A   _   P   R   I
+0016640   M   _   E   N   D   _   T   E   M   P   >  \r  \n  \t        
+0016660                           6   7   .   0   0   0   0   0   0   0
+0016700   <   /   F   _   A   _   P   R   I   M   _   E   N   D   _   T
+0016720   E   M   P   >  \r  \n  \t                           <   F   _
+0016740   A   _   S   E   C   _   T   E   M   P   >  \r  \n  \t        
+0016760                           6   7   .   0   0   0   0   0   0   0
+0017000   <   /   F   _   A   _   S   E   C   _   T   E   M   P   >  \r
+0017020  \n  \t                           <   F   _   A   _   S   E   C
+0017040   _   E   N   D   _   T   E   M   P   >  \r  \n  \t            
+0017060                       6   7   .   0   0   0   0   0   0   0   <
+0017100   /   F   _   A   _   S   E   C   _   E   N   D   _   T   E   M
+0017120   P   >  \r  \n  \t                           <   F   _   A   _
+0017140   T   E   R   T   _   T   E   M   P   >  \r  \n  \t            
+0017160                       6   5   .   0   0   0   0   0   0   0   <
+0017200   /   F   _   A   _   T   E   R   T   _   T   E   M   P   >  \r
+0017220  \n  \t                           <   F   _   A   _   A   G   E
+0017240   _   T   E   M   P   >  \r  \n  \t                            
+0017260       6   5   .   0   0   0   0   0   0   0   <   /   F   _   A
+0017300   _   A   G   E   _   T   E   M   P   >  \r  \n  \t            
+0017320               <   F   _   A   _   T   E   R   T   _   E   N   D
+0017340   _   T   E   M   P   >  \r  \n  \t                            
+0017360       6   5   .   0   0   0   0   0   0   0   <   /   F   _   A
+0017400   _   T   E   R   T   _   E   N   D   _   T   E   M   P   >  \r
+0017420  \n  \t                           <   F   _   A   _   E   N   D
+0017440   _   A   G   E   _   T   E   M   P   >  \r  \n  \t            
+0017460                       6   5   .   0   0   0   0   0   0   0   <
+0017500   /   F   _   A   _   E   N   D   _   A   G   E   _   T   E   M
+0017520   P   >  \r  \n  \t                           <   F   _   A   _
+0017540   B   U   L   K   _   T   E   M   P   >  \r  \n  \t            
+0017560                       6   5   .   0   0   0   0   0   0   0   <
+0017600   /   F   _   A   _   B   U   L   K   _   T   E   M   P   >  \r
+0017620  \n  \t                           <   F   _   A   _   B   U   L
+0017640   K   _   E   N   D   _   T   E   M   P   >  \r  \n  \t        
+0017660                           6   5   .   0   0   0   0   0   0   0
+0017700   <   /   F   _   A   _   B   U   L   K   _   E   N   D   _   T
+0017720   E   M   P   >  \r  \n  \t                           <   F   _
+0017740   A   _   E   N   D   _   T   E   M   P   S   _   S   E   T   >
+0017760  \r  \n  \t                                   1   <   /   F   _
+0020000   A   _   E   N   D   _   T   E   M   P   S   _   S   E   T   >
+0020020  \r  \n  \t                           <   F   _   A   _   P   R
+0020040   I   M   _   D   A   Y   S   >  \r  \n  \t                    
+0020060               4   .   0   0   0   0   0   0   0   <   /   F   _
+0020100   A   _   P   R   I   M   _   D   A   Y   S   >  \r  \n  \t    
+0020120                       <   F   _   A   _   S   E   C   _   D   A
+0020140   Y   S   >  \r  \n  \t                                   1   0
+0020160   .   0   0   0   0   0   0   0   <   /   F   _   A   _   S   E
+0020200   C   _   D   A   Y   S   >  \r  \n  \t                        
+0020220   <   F   _   A   _   T   E   R   T   _   D   A   Y   S   >  \r
+0020240  \n  \t                                   7   .   0   0   0   0
+0020260   0   0   0   <   /   F   _   A   _   T   E   R   T   _   D   A
+0020300   Y   S   >  \r  \n  \t                           <   F   _   A
+0020320   _   B   U   L   K   _   D   A   Y   S   >  \r  \n  \t        
+0020340                           3   0   .   0   0   0   0   0   0   0
+0020360   <   /   F   _   A   _   B   U   L   K   _   D   A   Y   S   >
+0020400  \r  \n  \t                           <   F   _   A   _   A   G
+0020420   E   >  \r  \n  \t                                   3   0   .
+0020440   0   0   0   0   0   0   0   <   /   F   _   A   _   A   G   E
+0020460   >  \r  \n  \t                           <   F   _   A   _   T
+0020500   Y   P   E   >  \r  \n  \t                                   1
+0020520   <   /   F   _   A   _   T   Y   P   E   >  \r  \n  \t        
+0020540                   <   F   _   A   _   N   O   T   E   S   >  \r
+0020560  \n  \t                                   <   /   F   _   A   _
+0020600   N   O   T   E   S   >  \r  \n  \t                           <
+0020620   /   A   g   e   >  \r  \n  \t                   <   A   g   e
+0020640   >  \r  \n  \t                           <   _   M   O   D   _
+0020660   >  \r  \n  \t                                   2   0   1   1
+0020700   -   0   6   -   0   6   <   /   _   M   O   D   _   >  \r  \n
+0020720  \t                           <   F   _   A   _   N   A   M   E
+0020740   >  \r  \n  \t                                   S   t   e   a
+0020760   m       B   e   e   r       (   C   a   l   i   f   o   r   n
+0021000   i   a       C   o   m   m   o   n   )   ,       T   w   o    
+0021020   s   t   a   g   e   <   /   F   _   A   _   N   A   M   E   >
+0021040  \r  \n  \t                           <   F   _   A   _   P   R
+0021060   I   M   _   T   E   M   P   >  \r  \n  \t                    
+0021100               6   6   .   0   0   0   0   0   0   0   <   /   F
+0021120   _   A   _   P   R   I   M   _   T   E   M   P   >  \r  \n  \t
+0021140                           <   F   _   A   _   P   R   I   M   _
+0021160   E   N   D   _   T   E   M   P   >  \r  \n  \t                
+0021200                   6   6   .   0   0   0   0   0   0   0   <   /
+0021220   F   _   A   _   P   R   I   M   _   E   N   D   _   T   E   M
+0021240   P   >  \r  \n  \t                           <   F   _   A   _
+0021260   S   E   C   _   T   E   M   P   >  \r  \n  \t                
+0021300                   6   6   .   0   0   0   0   0   0   0   <   /
+0021320   F   _   A   _   S   E   C   _   T   E   M   P   >  \r  \n  \t
+0021340                           <   F   _   A   _   S   E   C   _   E
+0021360   N   D   _   T   E   M   P   >  \r  \n  \t                    
+0021400               6   6   .   0   0   0   0   0   0   0   <   /   F
+0021420   _   A   _   S   E   C   _   E   N   D   _   T   E   M   P   >
+0021440  \r  \n  \t                           <   F   _   A   _   T   E
+0021460   R   T   _   T   E   M   P   >  \r  \n  \t                    
+0021500               6   5   .   0   0   0   0   0   0   0   <   /   F
+0021520   _   A   _   T   E   R   T   _   T   E   M   P   >  \r  \n  \t
+0021540                           <   F   _   A   _   A   G   E   _   T
+0021560   E   M   P   >  \r  \n  \t                                   6
+0021600   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _   A
+0021620   G   E   _   T   E   M   P   >  \r  \n  \t                    
+0021640       <   F   _   A   _   T   E   R   T   _   E   N   D   _   T
+0021660   E   M   P   >  \r  \n  \t                                   6
+0021700   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _   T
+0021720   E   R   T   _   E   N   D   _   T   E   M   P   >  \r  \n  \t
+0021740                           <   F   _   A   _   E   N   D   _   A
+0021760   G   E   _   T   E   M   P   >  \r  \n  \t                    
+0022000               5   0   .   0   0   0   0   0   0   0   <   /   F
+0022020   _   A   _   E   N   D   _   A   G   E   _   T   E   M   P   >
+0022040  \r  \n  \t                           <   F   _   A   _   B   U
+0022060   L   K   _   T   E   M   P   >  \r  \n  \t                    
+0022100               6   5   .   0   0   0   0   0   0   0   <   /   F
+0022120   _   A   _   B   U   L   K   _   T   E   M   P   >  \r  \n  \t
+0022140                           <   F   _   A   _   B   U   L   K   _
+0022160   E   N   D   _   T   E   M   P   >  \r  \n  \t                
+0022200                   6   5   .   0   0   0   0   0   0   0   <   /
+0022220   F   _   A   _   B   U   L   K   _   E   N   D   _   T   E   M
+0022240   P   >  \r  \n  \t                           <   F   _   A   _
+0022260   E   N   D   _   T   E   M   P   S   _   S   E   T   >  \r  \n
+0022300  \t                                   1   <   /   F   _   A   _
+0022320   E   N   D   _   T   E   M   P   S   _   S   E   T   >  \r  \n
+0022340  \t                           <   F   _   A   _   P   R   I   M
+0022360   _   D   A   Y   S   >  \r  \n  \t                            
+0022400       3   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0022420   P   R   I   M   _   D   A   Y   S   >  \r  \n  \t            
+0022440               <   F   _   A   _   S   E   C   _   D   A   Y   S
+0022460   >  \r  \n  \t                                   1   0   .   0
+0022500   0   0   0   0   0   0   <   /   F   _   A   _   S   E   C   _
+0022520   D   A   Y   S   >  \r  \n  \t                           <   F
+0022540   _   A   _   T   E   R   T   _   D   A   Y   S   >  \r  \n  \t
+0022560                                   7   .   0   0   0   0   0   0
+0022600   0   <   /   F   _   A   _   T   E   R   T   _   D   A   Y   S
+0022620   >  \r  \n  \t                           <   F   _   A   _   B
+0022640   U   L   K   _   D   A   Y   S   >  \r  \n  \t                
+0022660                   3   0   .   0   0   0   0   0   0   0   <   /
+0022700   F   _   A   _   B   U   L   K   _   D   A   Y   S   >  \r  \n
+0022720  \t                           <   F   _   A   _   A   G   E   >
+0022740  \r  \n  \t                                   2   4   .   0   0
+0022760   0   0   0   0   0   <   /   F   _   A   _   A   G   E   >  \r
+0023000  \n  \t                           <   F   _   A   _   T   Y   P
+0023020   E   >  \r  \n  \t                                   1   <   /
+0023040   F   _   A   _   T   Y   P   E   >  \r  \n  \t                
+0023060           <   F   _   A   _   N   O   T   E   S   >  \r  \n  \t
+0023100                                   T   w   o       s   t   a   g
+0023120   e       f   e   r   m   e   n   t   a   t   i   o   n       f
+0023140   o   r       s   t   e   a   m       b   e   e   r       -    
+0023160   w   h   i   c   h       i   s       d   o   n   e       w   i
+0023200   t   h       l   a   g   e   r       y   e   a   s   t       a
+0023220   t       a   l   e       f   e   r   m   e   n   t   a   t   i
+0023240   o   n       t   e   m   p   e   r   a   t   u   r   e   s   .
+0023260   <   /   F   _   A   _   N   O   T   E   S   >  \r  \n  \t    
+0023300                       <   /   A   g   e   >  \r  \n  \t        
+0023320           <   A   g   e   >  \r  \n  \t                        
+0023340   <   _   M   O   D   _   >  \r  \n  \t                        
+0023360           2   0   1   1   -   0   6   -   0   6   <   /   _   M
+0023400   O   D   _   >  \r  \n  \t                           <   F   _
+0023420   A   _   N   A   M   E   >  \r  \n  \t                        
+0023440           L   a   g   e   r   ,       T   w   o       S   t   a
+0023460   g   e   <   /   F   _   A   _   N   A   M   E   >  \r  \n  \t
+0023500                           <   F   _   A   _   P   R   I   M   _
+0023520   T   E   M   P   >  \r  \n  \t                                
+0023540   5   4   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0023560   P   R   I   M   _   T   E   M   P   >  \r  \n  \t            
+0023600               <   F   _   A   _   P   R   I   M   _   E   N   D
+0023620   _   T   E   M   P   >  \r  \n  \t                            
+0023640       5   4   .   0   0   0   0   0   0   0   <   /   F   _   A
+0023660   _   P   R   I   M   _   E   N   D   _   T   E   M   P   >  \r
+0023700  \n  \t                           <   F   _   A   _   S   E   C
+0023720   _   T   E   M   P   >  \r  \n  \t                            
+0023740       6   2   .   0   0   0   0   0   0   0   <   /   F   _   A
+0023760   _   S   E   C   _   T   E   M   P   >  \r  \n  \t            
+0024000               <   F   _   A   _   S   E   C   _   E   N   D   _
+0024020   T   E   M   P   >  \r  \n  \t                                
+0024040   6   2   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0024060   S   E   C   _   E   N   D   _   T   E   M   P   >  \r  \n  \t
+0024100                           <   F   _   A   _   T   E   R   T   _
+0024120   T   E   M   P   >  \r  \n  \t                                
+0024140   6   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0024160   T   E   R   T   _   T   E   M   P   >  \r  \n  \t            
+0024200               <   F   _   A   _   A   G   E   _   T   E   M   P
+0024220   >  \r  \n  \t                                   6   0   .   0
+0024240   0   0   0   0   0   0   <   /   F   _   A   _   A   G   E   _
+0024260   T   E   M   P   >  \r  \n  \t                           <   F
+0024300   _   A   _   T   E   R   T   _   E   N   D   _   T   E   M   P
+0024320   >  \r  \n  \t                                   6   5   .   0
+0024340   0   0   0   0   0   0   <   /   F   _   A   _   T   E   R   T
+0024360   _   E   N   D   _   T   E   M   P   >  \r  \n  \t            
+0024400               <   F   _   A   _   E   N   D   _   A   G   E   _
+0024420   T   E   M   P   >  \r  \n  \t                                
+0024440   4   0   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0024460   E   N   D   _   A   G   E   _   T   E   M   P   >  \r  \n  \t
+0024500                           <   F   _   A   _   B   U   L   K   _
+0024520   T   E   M   P   >  \r  \n  \t                                
+0024540   6   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0024560   B   U   L   K   _   T   E   M   P   >  \r  \n  \t            
+0024600               <   F   _   A   _   B   U   L   K   _   E   N   D
+0024620   _   T   E   M   P   >  \r  \n  \t                            
+0024640       6   5   .   0   0   0   0   0   0   0   <   /   F   _   A
+0024660   _   B   U   L   K   _   E   N   D   _   T   E   M   P   >  \r
+0024700  \n  \t                           <   F   _   A   _   E   N   D
+0024720   _   T   E   M   P   S   _   S   E   T   >  \r  \n  \t        
+0024740                           1   <   /   F   _   A   _   E   N   D
+0024760   _   T   E   M   P   S   _   S   E   T   >  \r  \n  \t        
+0025000                   <   F   _   A   _   P   R   I   M   _   D   A
+0025020   Y   S   >  \r  \n  \t                                   1   4
+0025040   .   0   0   0   0   0   0   0   <   /   F   _   A   _   P   R
+0025060   I   M   _   D   A   Y   S   >  \r  \n  \t                    
+0025100       <   F   _   A   _   S   E   C   _   D   A   Y   S   >  \r
+0025120  \n  \t                                   3   .   0   0   0   0
+0025140   0   0   0   <   /   F   _   A   _   S   E   C   _   D   A   Y
+0025160   S   >  \r  \n  \t                           <   F   _   A   _
+0025200   T   E   R   T   _   D   A   Y   S   >  \r  \n  \t            
+0025220                       7   .   0   0   0   0   0   0   0   <   /
+0025240   F   _   A   _   T   E   R   T   _   D   A   Y   S   >  \r  \n
+0025260  \t                           <   F   _   A   _   B   U   L   K
+0025300   _   D   A   Y   S   >  \r  \n  \t                            
+0025320       3   0   .   0   0   0   0   0   0   0   <   /   F   _   A
+0025340   _   B   U   L   K   _   D   A   Y   S   >  \r  \n  \t        
+0025360                   <   F   _   A   _   A   G   E   >  \r  \n  \t
+0025400                                   3   0   .   0   0   0   0   0
+0025420   0   0   <   /   F   _   A   _   A   G   E   >  \r  \n  \t    
+0025440                       <   F   _   A   _   T   Y   P   E   >  \r
+0025460  \n  \t                                   1   <   /   F   _   A
+0025500   _   T   Y   P   E   >  \r  \n  \t                           <
+0025520   F   _   A   _   N   O   T   E   S   >  \r  \n  \t            
+0025540                       T   w   o       s   t   a   g   e       f
+0025560   e   r   m   e   n   t   a   t   i   o   n       w   i   t   h
+0025600       a       l   o   n   g   e   r       f   i   r   s   t    
+0025620   s   t   a   g   e   ,       s   e   c   o   n   d       s   t
+0025640   a   g   e       u   s   e   d       f   o   r       t   h   e
+0025660       d   i   a   c   y   t   l       r   e   s   t       a   n
+0025700   d       a       r   a   m   p       t   o       l   a   g   e
+0025720   r       s   t   o   r   a   g   e       t   e   m   p   e   r
+0025740   a   t   u   r   e   s       d   u   r   i   n   g       a   g
+0025760   i   n   g   .   <   /   F   _   A   _   N   O   T   E   S   >
+0026000  \r  \n  \t                           <   /   A   g   e   >  \r
+0026020  \n  \t                   <   A   g   e   >  \r  \n  \t        
+0026040                   <   _   M   O   D   _   >  \r  \n  \t        
+0026060                           2   0   1   1   -   0   6   -   0   6
+0026100   <   /   _   M   O   D   _   >  \r  \n  \t                    
+0026120       <   F   _   A   _   N   A   M   E   >  \r  \n  \t        
+0026140                           L   a   g   e   r   ,       T   h   r
+0026160   e   e       S   t   a   g   e   <   /   F   _   A   _   N   A
+0026200   M   E   >  \r  \n  \t                           <   F   _   A
+0026220   _   P   R   I   M   _   T   E   M   P   >  \r  \n  \t        
+0026240                           5   4   .   0   0   0   0   0   0   0
+0026260   <   /   F   _   A   _   P   R   I   M   _   T   E   M   P   >
+0026300  \r  \n  \t                           <   F   _   A   _   P   R
+0026320   I   M   _   E   N   D   _   T   E   M   P   >  \r  \n  \t    
+0026340                               5   4   .   0   0   0   0   0   0
+0026360   0   <   /   F   _   A   _   P   R   I   M   _   E   N   D   _
+0026400   T   E   M   P   >  \r  \n  \t                           <   F
+0026420   _   A   _   S   E   C   _   T   E   M   P   >  \r  \n  \t    
+0026440                               5   4   .   0   0   0   0   0   0
+0026460   0   <   /   F   _   A   _   S   E   C   _   T   E   M   P   >
+0026500  \r  \n  \t                           <   F   _   A   _   S   E
+0026520   C   _   E   N   D   _   T   E   M   P   >  \r  \n  \t        
+0026540                           5   4   .   0   0   0   0   0   0   0
+0026560   <   /   F   _   A   _   S   E   C   _   E   N   D   _   T   E
+0026600   M   P   >  \r  \n  \t                           <   F   _   A
+0026620   _   T   E   R   T   _   T   E   M   P   >  \r  \n  \t        
+0026640                           6   2   .   0   0   0   0   0   0   0
+0026660   <   /   F   _   A   _   T   E   R   T   _   T   E   M   P   >
+0026700  \r  \n  \t                           <   F   _   A   _   A   G
+0026720   E   _   T   E   M   P   >  \r  \n  \t                        
+0026740           6   0   .   0   0   0   0   0   0   0   <   /   F   _
+0026760   A   _   A   G   E   _   T   E   M   P   >  \r  \n  \t        
+0027000                   <   F   _   A   _   T   E   R   T   _   E   N
+0027020   D   _   T   E   M   P   >  \r  \n  \t                        
+0027040           6   2   .   0   0   0   0   0   0   0   <   /   F   _
+0027060   A   _   T   E   R   T   _   E   N   D   _   T   E   M   P   >
+0027100  \r  \n  \t                           <   F   _   A   _   E   N
+0027120   D   _   A   G   E   _   T   E   M   P   >  \r  \n  \t        
+0027140                           3   5   .   0   0   0   0   0   0   0
+0027160   <   /   F   _   A   _   E   N   D   _   A   G   E   _   T   E
+0027200   M   P   >  \r  \n  \t                           <   F   _   A
+0027220   _   B   U   L   K   _   T   E   M   P   >  \r  \n  \t        
+0027240                           6   5   .   0   0   0   0   0   0   0
+0027260   <   /   F   _   A   _   B   U   L   K   _   T   E   M   P   >
+0027300  \r  \n  \t                           <   F   _   A   _   B   U
+0027320   L   K   _   E   N   D   _   T   E   M   P   >  \r  \n  \t    
+0027340                               6   5   .   0   0   0   0   0   0
+0027360   0   <   /   F   _   A   _   B   U   L   K   _   E   N   D   _
+0027400   T   E   M   P   >  \r  \n  \t                           <   F
+0027420   _   A   _   E   N   D   _   T   E   M   P   S   _   S   E   T
+0027440   >  \r  \n  \t                                   1   <   /   F
+0027460   _   A   _   E   N   D   _   T   E   M   P   S   _   S   E   T
+0027500   >  \r  \n  \t                           <   F   _   A   _   P
+0027520   R   I   M   _   D   A   Y   S   >  \r  \n  \t                
+0027540                   4   .   0   0   0   0   0   0   0   <   /   F
+0027560   _   A   _   P   R   I   M   _   D   A   Y   S   >  \r  \n  \t
+0027600                           <   F   _   A   _   S   E   C   _   D
+0027620   A   Y   S   >  \r  \n  \t                                   1
+0027640   0   .   0   0   0   0   0   0   0   <   /   F   _   A   _   S
+0027660   E   C   _   D   A   Y   S   >  \r  \n  \t                    
+0027700       <   F   _   A   _   T   E   R   T   _   D   A   Y   S   >
+0027720  \r  \n  \t                                   3   .   0   0   0
+0027740   0   0   0   0   <   /   F   _   A   _   T   E   R   T   _   D
+0027760   A   Y   S   >  \r  \n  \t                           <   F   _
+0030000   A   _   B   U   L   K   _   D   A   Y   S   >  \r  \n  \t    
+0030020                               3   0   .   0   0   0   0   0   0
+0030040   0   <   /   F   _   A   _   B   U   L   K   _   D   A   Y   S
+0030060   >  \r  \n  \t                           <   F   _   A   _   A
+0030100   G   E   >  \r  \n  \t                                   3   0
+0030120   .   0   0   0   0   0   0   0   <   /   F   _   A   _   A   G
+0030140   E   >  \r  \n  \t                           <   F   _   A   _
+0030160   T   Y   P   E   >  \r  \n  \t                                
+0030200   2   <   /   F   _   A   _   T   Y   P   E   >  \r  \n  \t    
+0030220                       <   F   _   A   _   N   O   T   E   S   >
+0030240  \r  \n  \t                                   T   h   r   e   e
+0030260       s   t   a   g   e       l   a   g   e   r       f   e   r
+0030300   m   e   n   t   a   t   i   o   n       -       t   w   o    
+0030320   a   r   e       u   s   e   d       f   o   r       t   h   e
+0030340       f   e   r   m   e   n   t   a   t   i   o   n       i   t
+0030360   s   e   l   f   ,       w   i   t   h       t   h   e       t
+0030400   e   r   t   i   a   r   y       f   e   r   m   e   n   t   a
+0030420   t   i   o   n       u   s   e   d       a   s       a       d
+0030440   i   a   c   y   t   l       r   e   s   t   .   <   /   F   _
+0030460   A   _   N   O   T   E   S   >  \r  \n  \t                    
+0030500       <   /   A   g   e   >  \r  \n  \t                   <   A
+0030520   g   e   >  \r  \n  \t                           <   _   M   O
+0030540   D   _   >  \r  \n  \t                                   2   0
+0030560   1   1   -   0   6   -   0   6   <   /   _   M   O   D   _   >
+0030600  \r  \n  \t                           <   F   _   A   _   N   A
+0030620   M   E   >  \r  \n  \t                                   L   a
+0030640   g   e   r   ,       S   i   n   g   l   e       S   t   a   g
+0030660   e   <   /   F   _   A   _   N   A   M   E   >  \r  \n  \t    
+0030700                       <   F   _   A   _   P   R   I   M   _   T
+0030720   E   M   P   >  \r  \n  \t                                   5
+0030740   4   .   0   0   0   0   0   0   0   <   /   F   _   A   _   P
+0030760   R   I   M   _   T   E   M   P   >  \r  \n  \t                
+0031000           <   F   _   A   _   P   R   I   M   _   E   N   D   _
+0031020   T   E   M   P   >  \r  \n  \t                                
+0031040   5   4   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0031060   P   R   I   M   _   E   N   D   _   T   E   M   P   >  \r  \n
+0031100  \t                           <   F   _   A   _   S   E   C   _
+0031120   T   E   M   P   >  \r  \n  \t                                
+0031140   6   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0031160   S   E   C   _   T   E   M   P   >  \r  \n  \t                
+0031200           <   F   _   A   _   S   E   C   _   E   N   D   _   T
+0031220   E   M   P   >  \r  \n  \t                                   6
+0031240   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _   S
+0031260   E   C   _   E   N   D   _   T   E   M   P   >  \r  \n  \t    
+0031300                       <   F   _   A   _   T   E   R   T   _   T
+0031320   E   M   P   >  \r  \n  \t                                   6
+0031340   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _   T
+0031360   E   R   T   _   T   E   M   P   >  \r  \n  \t                
+0031400           <   F   _   A   _   A   G   E   _   T   E   M   P   >
+0031420  \r  \n  \t                                   6   0   .   0   0
+0031440   0   0   0   0   0   <   /   F   _   A   _   A   G   E   _   T
+0031460   E   M   P   >  \r  \n  \t                           <   F   _
+0031500   A   _   T   E   R   T   _   E   N   D   _   T   E   M   P   >
+0031520  \r  \n  \t                                   6   5   .   0   0
+0031540   0   0   0   0   0   <   /   F   _   A   _   T   E   R   T   _
+0031560   E   N   D   _   T   E   M   P   >  \r  \n  \t                
+0031600           <   F   _   A   _   E   N   D   _   A   G   E   _   T
+0031620   E   M   P   >  \r  \n  \t                                   4
+0031640   0   .   0   0   0   0   0   0   0   <   /   F   _   A   _   E
+0031660   N   D   _   A   G   E   _   T   E   M   P   >  \r  \n  \t    
+0031700                       <   F   _   A   _   B   U   L   K   _   T
+0031720   E   M   P   >  \r  \n  \t                                   6
+0031740   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _   B
+0031760   U   L   K   _   T   E   M   P   >  \r  \n  \t                
+0032000           <   F   _   A   _   B   U   L   K   _   E   N   D   _
+0032020   T   E   M   P   >  \r  \n  \t                                
+0032040   6   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0032060   B   U   L   K   _   E   N   D   _   T   E   M   P   >  \r  \n
+0032100  \t                           <   F   _   A   _   E   N   D   _
+0032120   T   E   M   P   S   _   S   E   T   >  \r  \n  \t            
+0032140                       1   <   /   F   _   A   _   E   N   D   _
+0032160   T   E   M   P   S   _   S   E   T   >  \r  \n  \t            
+0032200               <   F   _   A   _   P   R   I   M   _   D   A   Y
+0032220   S   >  \r  \n  \t                                   1   4   .
+0032240   0   0   0   0   0   0   0   <   /   F   _   A   _   P   R   I
+0032260   M   _   D   A   Y   S   >  \r  \n  \t                        
+0032300   <   F   _   A   _   S   E   C   _   D   A   Y   S   >  \r  \n
+0032320  \t                                   1   0   .   0   0   0   0
+0032340   0   0   0   <   /   F   _   A   _   S   E   C   _   D   A   Y
+0032360   S   >  \r  \n  \t                           <   F   _   A   _
+0032400   T   E   R   T   _   D   A   Y   S   >  \r  \n  \t            
+0032420                       7   .   0   0   0   0   0   0   0   <   /
+0032440   F   _   A   _   T   E   R   T   _   D   A   Y   S   >  \r  \n
+0032460  \t                           <   F   _   A   _   B   U   L   K
+0032500   _   D   A   Y   S   >  \r  \n  \t                            
+0032520       3   0   .   0   0   0   0   0   0   0   <   /   F   _   A
+0032540   _   B   U   L   K   _   D   A   Y   S   >  \r  \n  \t        
+0032560                   <   F   _   A   _   A   G   E   >  \r  \n  \t
+0032600                                   3   0   .   0   0   0   0   0
+0032620   0   0   <   /   F   _   A   _   A   G   E   >  \r  \n  \t    
+0032640                       <   F   _   A   _   T   Y   P   E   >  \r
+0032660  \n  \t                                   0   <   /   F   _   A
+0032700   _   T   Y   P   E   >  \r  \n  \t                           <
+0032720   F   _   A   _   N   O   T   E   S   >  \r  \n  \t            
+0032740                       S   i   n   g   l   e       s   t   a   g
+0032760   e       l   a   g   e   r       f   e   r   m   e   n   t   a
+0033000   t   i   o   n       w   i   t   h       a       s   h   o   r
+0033020   t       d   i   a   c   y   t   l       r   a   m   p       d
+0033040   u   r   i   n   g       a   g   i   n   g   <   /   F   _   A
+0033060   _   N   O   T   E   S   >  \r  \n  \t                        
+0033100   <   /   A   g   e   >  \r  \n  \t                   <   A   g
+0033120   e   >  \r  \n  \t                           <   _   M   O   D
+0033140   _   >  \r  \n  \t                                   2   0   1
+0033160   1   -   0   6   -   0   6   <   /   _   M   O   D   _   >  \r
+0033200  \n  \t                           <   F   _   A   _   N   A   M
+0033220   E   >  \r  \n  \t                                   K   o   e
+0033240   l   s   c   h       (   K   o   l   s   c   h   )   ,       T
+0033260   w   o       S   t   a   g   e   <   /   F   _   A   _   N   A
+0033300   M   E   >  \r  \n  \t                           <   F   _   A
+0033320   _   P   R   I   M   _   T   E   M   P   >  \r  \n  \t        
+0033340                           6   0   .   0   0   0   0   0   0   0
+0033360   <   /   F   _   A   _   P   R   I   M   _   T   E   M   P   >
+0033400  \r  \n  \t                           <   F   _   A   _   P   R
+0033420   I   M   _   E   N   D   _   T   E   M   P   >  \r  \n  \t    
+0033440                               6   0   .   0   0   0   0   0   0
+0033460   0   <   /   F   _   A   _   P   R   I   M   _   E   N   D   _
+0033500   T   E   M   P   >  \r  \n  \t                           <   F
+0033520   _   A   _   S   E   C   _   T   E   M   P   >  \r  \n  \t    
+0033540                               6   0   .   0   0   0   0   0   0
+0033560   0   <   /   F   _   A   _   S   E   C   _   T   E   M   P   >
+0033600  \r  \n  \t                           <   F   _   A   _   S   E
+0033620   C   _   E   N   D   _   T   E   M   P   >  \r  \n  \t        
+0033640                           6   0   .   0   0   0   0   0   0   0
+0033660   <   /   F   _   A   _   S   E   C   _   E   N   D   _   T   E
+0033700   M   P   >  \r  \n  \t                           <   F   _   A
+0033720   _   T   E   R   T   _   T   E   M   P   >  \r  \n  \t        
+0033740                           6   5   .   0   0   0   0   0   0   0
+0033760   <   /   F   _   A   _   T   E   R   T   _   T   E   M   P   >
+0034000  \r  \n  \t                           <   F   _   A   _   A   G
+0034020   E   _   T   E   M   P   >  \r  \n  \t                        
+0034040           6   3   .   0   0   0   0   0   0   0   <   /   F   _
+0034060   A   _   A   G   E   _   T   E   M   P   >  \r  \n  \t        
+0034100                   <   F   _   A   _   T   E   R   T   _   E   N
+0034120   D   _   T   E   M   P   >  \r  \n  \t                        
+0034140           6   5   .   0   0   0   0   0   0   0   <   /   F   _
+0034160   A   _   T   E   R   T   _   E   N   D   _   T   E   M   P   >
+0034200  \r  \n  \t                           <   F   _   A   _   E   N
+0034220   D   _   A   G   E   _   T   E   M   P   >  \r  \n  \t        
+0034240                           4   5   .   0   0   0   0   0   0   0
+0034260   <   /   F   _   A   _   E   N   D   _   A   G   E   _   T   E
+0034300   M   P   >  \r  \n  \t                           <   F   _   A
+0034320   _   B   U   L   K   _   T   E   M   P   >  \r  \n  \t        
+0034340                           6   5   .   0   0   0   0   0   0   0
+0034360   <   /   F   _   A   _   B   U   L   K   _   T   E   M   P   >
+0034400  \r  \n  \t                           <   F   _   A   _   B   U
+0034420   L   K   _   E   N   D   _   T   E   M   P   >  \r  \n  \t    
+0034440                               6   5   .   0   0   0   0   0   0
+0034460   0   <   /   F   _   A   _   B   U   L   K   _   E   N   D   _
+0034500   T   E   M   P   >  \r  \n  \t                           <   F
+0034520   _   A   _   E   N   D   _   T   E   M   P   S   _   S   E   T
+0034540   >  \r  \n  \t                                   1   <   /   F
+0034560   _   A   _   E   N   D   _   T   E   M   P   S   _   S   E   T
+0034600   >  \r  \n  \t                           <   F   _   A   _   P
+0034620   R   I   M   _   D   A   Y   S   >  \r  \n  \t                
+0034640                   3   .   0   0   0   0   0   0   0   <   /   F
+0034660   _   A   _   P   R   I   M   _   D   A   Y   S   >  \r  \n  \t
+0034700                           <   F   _   A   _   S   E   C   _   D
+0034720   A   Y   S   >  \r  \n  \t                                   1
+0034740   2   .   0   0   0   0   0   0   0   <   /   F   _   A   _   S
+0034760   E   C   _   D   A   Y   S   >  \r  \n  \t                    
+0035000       <   F   _   A   _   T   E   R   T   _   D   A   Y   S   >
+0035020  \r  \n  \t                                   7   .   0   0   0
+0035040   0   0   0   0   <   /   F   _   A   _   T   E   R   T   _   D
+0035060   A   Y   S   >  \r  \n  \t                           <   F   _
+0035100   A   _   B   U   L   K   _   D   A   Y   S   >  \r  \n  \t    
+0035120                               3   0   .   0   0   0   0   0   0
+0035140   0   <   /   F   _   A   _   B   U   L   K   _   D   A   Y   S
+0035160   >  \r  \n  \t                           <   F   _   A   _   A
+0035200   G   E   >  \r  \n  \t                                   3   0
+0035220   .   0   0   0   0   0   0   0   <   /   F   _   A   _   A   G
+0035240   E   >  \r  \n  \t                           <   F   _   A   _
+0035260   T   Y   P   E   >  \r  \n  \t                                
+0035300   1   <   /   F   _   A   _   T   Y   P   E   >  \r  \n  \t    
+0035320                       <   F   _   A   _   N   O   T   E   S   >
+0035340  \r  \n  \t                                   A   g   i   n   g
+0035360       p   r   o   f   i   l   e       f   o   r       a       K
+0035400   o   e   l   s   c   h       w   h   i   c   h       i   s    
+0035420   a   g   e   d       n   e   a   r       a   l   e       t   e
+0035440   m   p   e   r   a   t   u   r   e       b   u   t       s   l
+0035460   o   w   l   y       c   o   o   l   e   d       t   o       l
+0035500   a   g   e   r       t   e   m   p   e   r   a   t   u   r   e
+0035520   s       f   o   r       f   i   n   a   l       a   g   i   n
+0035540   g   .   <   /   F   _   A   _   N   O   T   E   S   >  \r  \n
+0035560  \t                           <   /   A   g   e   >  \r  \n  \t
+0035600                   <   A   g   e   >  \r  \n  \t                
+0035620           <   _   M   O   D   _   >  \r  \n  \t                
+0035640                   2   0   1   1   -   0   6   -   0   6   <   /
+0035660   _   M   O   D   _   >  \r  \n  \t                           <
+0035700   F   _   A   _   N   A   M   E   >  \r  \n  \t                
+0035720                   A   l   e   ,       T   w   o       S   t   a
+0035740   g   e   <   /   F   _   A   _   N   A   M   E   >  \r  \n  \t
+0035760                           <   F   _   A   _   P   R   I   M   _
+0036000   T   E   M   P   >  \r  \n  \t                                
+0036020   6   7   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0036040   P   R   I   M   _   T   E   M   P   >  \r  \n  \t            
+0036060               <   F   _   A   _   P   R   I   M   _   E   N   D
+0036100   _   T   E   M   P   >  \r  \n  \t                            
+0036120       6   7   .   0   0   0   0   0   0   0   <   /   F   _   A
+0036140   _   P   R   I   M   _   E   N   D   _   T   E   M   P   >  \r
+0036160  \n  \t                           <   F   _   A   _   S   E   C
+0036200   _   T   E   M   P   >  \r  \n  \t                            
+0036220       6   7   .   0   0   0   0   0   0   0   <   /   F   _   A
+0036240   _   S   E   C   _   T   E   M   P   >  \r  \n  \t            
+0036260               <   F   _   A   _   S   E   C   _   E   N   D   _
+0036300   T   E   M   P   >  \r  \n  \t                                
+0036320   6   7   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0036340   S   E   C   _   E   N   D   _   T   E   M   P   >  \r  \n  \t
+0036360                           <   F   _   A   _   T   E   R   T   _
+0036400   T   E   M   P   >  \r  \n  \t                                
+0036420   6   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0036440   T   E   R   T   _   T   E   M   P   >  \r  \n  \t            
+0036460               <   F   _   A   _   A   G   E   _   T   E   M   P
+0036500   >  \r  \n  \t                                   6   5   .   0
+0036520   0   0   0   0   0   0   <   /   F   _   A   _   A   G   E   _
+0036540   T   E   M   P   >  \r  \n  \t                           <   F
+0036560   _   A   _   T   E   R   T   _   E   N   D   _   T   E   M   P
+0036600   >  \r  \n  \t                                   6   5   .   0
+0036620   0   0   0   0   0   0   <   /   F   _   A   _   T   E   R   T
+0036640   _   E   N   D   _   T   E   M   P   >  \r  \n  \t            
+0036660               <   F   _   A   _   E   N   D   _   A   G   E   _
+0036700   T   E   M   P   >  \r  \n  \t                                
+0036720   6   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0036740   E   N   D   _   A   G   E   _   T   E   M   P   >  \r  \n  \t
+0036760                           <   F   _   A   _   B   U   L   K   _
+0037000   T   E   M   P   >  \r  \n  \t                                
+0037020   6   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _
+0037040   B   U   L   K   _   T   E   M   P   >  \r  \n  \t            
+0037060               <   F   _   A   _   B   U   L   K   _   E   N   D
+0037100   _   T   E   M   P   >  \r  \n  \t                            
+0037120       6   5   .   0   0   0   0   0   0   0   <   /   F   _   A
+0037140   _   B   U   L   K   _   E   N   D   _   T   E   M   P   >  \r
+0037160  \n  \t                           <   F   _   A   _   E   N   D
+0037200   _   T   E   M   P   S   _   S   E   T   >  \r  \n  \t        
+0037220                           1   <   /   F   _   A   _   E   N   D
+0037240   _   T   E   M   P   S   _   S   E   T   >  \r  \n  \t        
+0037260                   <   F   _   A   _   P   R   I   M   _   D   A
+0037300   Y   S   >  \r  \n  \t                                   4   .
+0037320   0   0   0   0   0   0   0   <   /   F   _   A   _   P   R   I
+0037340   M   _   D   A   Y   S   >  \r  \n  \t                        
+0037360   <   F   _   A   _   S   E   C   _   D   A   Y   S   >  \r  \n
+0037400  \t                                   1   0   .   0   0   0   0
+0037420   0   0   0   <   /   F   _   A   _   S   E   C   _   D   A   Y
+0037440   S   >  \r  \n  \t                           <   F   _   A   _
+0037460   T   E   R   T   _   D   A   Y   S   >  \r  \n  \t            
+0037500                       7   .   0   0   0   0   0   0   0   <   /
+0037520   F   _   A   _   T   E   R   T   _   D   A   Y   S   >  \r  \n
+0037540  \t                           <   F   _   A   _   B   U   L   K
+0037560   _   D   A   Y   S   >  \r  \n  \t                            
+0037600       3   0   .   0   0   0   0   0   0   0   <   /   F   _   A
+0037620   _   B   U   L   K   _   D   A   Y   S   >  \r  \n  \t        
+0037640                   <   F   _   A   _   A   G   E   >  \r  \n  \t
+0037660                                   3   0   .   0   0   0   0   0
+0037700   0   0   <   /   F   _   A   _   A   G   E   >  \r  \n  \t    
+0037720                       <   F   _   A   _   T   Y   P   E   >  \r
+0037740  \n  \t                                   1   <   /   F   _   A
+0037760   _   T   Y   P   E   >  \r  \n  \t                           <
+0040000   F   _   A   _   N   O   T   E   S   >  \r  \n  \t            
+0040020                       T   w   o       s   t   a   g   e       a
+0040040   l   e       f   e   r   m   e   n   t   a   t   i   o   n    
+0040060   s   u   i   t   a   b   l   e       f   o   r       j   u   s
+0040100   t       a   b   o   u   t       a   n   y       a   l   e   .
+0040120           T   w   o       s   t   a   g   e       f   e   r   m
+0040140   e   n   t   a   t   i   o   n   s       a   r   e       u   s
+0040160   e   d       b   y       m   a   n   y       h   o   m   e   b
+0040200   r   e   w   e   r   s       t   o       i   m   p   r   o   v
+0040220   e       f   l   a   v   o   r       b   y       s   e   p   a
+0040240   r   a   t   i   n   g       t   h   e       a   c   t   i   v
+0040260   e       y   e   a   s   t       a   n   d       t   r   u   b
+0040300       f   r   o   m       t   h   e       b   e   e   r       e
+0040320   a   r   l   y   .   <   /   F   _   A   _   N   O   T   E   S
+0040340   >  \r  \n  \t                           <   /   A   g   e   >
+0040360  \r  \n  \t                   <   A   g   e   >  \r  \n  \t    
+0040400                       <   _   M   O   D   _   >  \r  \n  \t    
+0040420                               2   0   1   1   -   0   6   -   0
+0040440   6   <   /   _   M   O   D   _   >  \r  \n  \t                
+0040460           <   F   _   A   _   N   A   M   E   >  \r  \n  \t    
+0040500                               A   l   e   ,       T   h   r   e
+0040520   e       S   t   a   g   e   <   /   F   _   A   _   N   A   M
+0040540   E   >  \r  \n  \t                           <   F   _   A   _
+0040560   P   R   I   M   _   T   E   M   P   >  \r  \n  \t            
+0040600                       6   7   .   0   0   0   0   0   0   0   <
+0040620   /   F   _   A   _   P   R   I   M   _   T   E   M   P   >  \r
+0040640  \n  \t                           <   F   _   A   _   P   R   I
+0040660   M   _   E   N   D   _   T   E   M   P   >  \r  \n  \t        
+0040700                           6   7   .   0   0   0   0   0   0   0
+0040720   <   /   F   _   A   _   P   R   I   M   _   E   N   D   _   T
+0040740   E   M   P   >  \r  \n  \t                           <   F   _
+0040760   A   _   S   E   C   _   T   E   M   P   >  \r  \n  \t        
+0041000                           6   7   .   0   0   0   0   0   0   0
+0041020   <   /   F   _   A   _   S   E   C   _   T   E   M   P   >  \r
+0041040  \n  \t                           <   F   _   A   _   S   E   C
+0041060   _   E   N   D   _   T   E   M   P   >  \r  \n  \t            
+0041100                       6   7   .   0   0   0   0   0   0   0   <
+0041120   /   F   _   A   _   S   E   C   _   E   N   D   _   T   E   M
+0041140   P   >  \r  \n  \t                           <   F   _   A   _
+0041160   T   E   R   T   _   T   E   M   P   >  \r  \n  \t            
+0041200                       6   5   .   0   0   0   0   0   0   0   <
+0041220   /   F   _   A   _   T   E   R   T   _   T   E   M   P   >  \r
+0041240  \n  \t                           <   F   _   A   _   A   G   E
+0041260   _   T   E   M   P   >  \r  \n  \t                            
+0041300       6   5   .   0   0   0   0   0   0   0   <   /   F   _   A
+0041320   _   A   G   E   _   T   E   M   P   >  \r  \n  \t            
+0041340               <   F   _   A   _   T   E   R   T   _   E   N   D
+0041360   _   T   E   M   P   >  \r  \n  \t                            
+0041400       6   5   .   0   0   0   0   0   0   0   <   /   F   _   A
+0041420   _   T   E   R   T   _   E   N   D   _   T   E   M   P   >  \r
+0041440  \n  \t                           <   F   _   A   _   E   N   D
+0041460   _   A   G   E   _   T   E   M   P   >  \r  \n  \t            
+0041500                       6   5   .   0   0   0   0   0   0   0   <
+0041520   /   F   _   A   _   E   N   D   _   A   G   E   _   T   E   M
+0041540   P   >  \r  \n  \t                           <   F   _   A   _
+0041560   B   U   L   K   _   T   E   M   P   >  \r  \n  \t            
+0041600                       6   5   .   0   0   0   0   0   0   0   <
+0041620   /   F   _   A   _   B   U   L   K   _   T   E   M   P   >  \r
+0041640  \n  \t                           <   F   _   A   _   B   U   L
+0041660   K   _   E   N   D   _   T   E   M   P   >  \r  \n  \t        
+0041700                           6   5   .   0   0   0   0   0   0   0
+0041720   <   /   F   _   A   _   B   U   L   K   _   E   N   D   _   T
+0041740   E   M   P   >  \r  \n  \t                           <   F   _
+0041760   A   _   E   N   D   _   T   E   M   P   S   _   S   E   T   >
+0042000  \r  \n  \t                                   1   <   /   F   _
+0042020   A   _   E   N   D   _   T   E   M   P   S   _   S   E   T   >
+0042040  \r  \n  \t                           <   F   _   A   _   P   R
+0042060   I   M   _   D   A   Y   S   >  \r  \n  \t                    
+0042100               4   .   0   0   0   0   0   0   0   <   /   F   _
+0042120   A   _   P   R   I   M   _   D   A   Y   S   >  \r  \n  \t    
+0042140                       <   F   _   A   _   S   E   C   _   D   A
+0042160   Y   S   >  \r  \n  \t                                   1   0
+0042200   .   0   0   0   0   0   0   0   <   /   F   _   A   _   S   E
+0042220   C   _   D   A   Y   S   >  \r  \n  \t                        
+0042240   <   F   _   A   _   T   E   R   T   _   D   A   Y   S   >  \r
+0042260  \n  \t                                   1   4   .   0   0   0
+0042300   0   0   0   0   <   /   F   _   A   _   T   E   R   T   _   D
+0042320   A   Y   S   >  \r  \n  \t                           <   F   _
+0042340   A   _   B   U   L   K   _   D   A   Y   S   >  \r  \n  \t    
+0042360                               3   0   .   0   0   0   0   0   0
+0042400   0   <   /   F   _   A   _   B   U   L   K   _   D   A   Y   S
+0042420   >  \r  \n  \t                           <   F   _   A   _   A
+0042440   G   E   >  \r  \n  \t                                   3   0
+0042460   .   0   0   0   0   0   0   0   <   /   F   _   A   _   A   G
+0042500   E   >  \r  \n  \t                           <   F   _   A   _
+0042520   T   Y   P   E   >  \r  \n  \t                                
+0042540   2   <   /   F   _   A   _   T   Y   P   E   >  \r  \n  \t    
+0042560                       <   F   _   A   _   N   O   T   E   S   >
+0042600  \r  \n  \t                                   A       t   h   r
+0042620   e   e       s   t   a   g   e       f   e   r   m   e   n   t
+0042640   a   t   i   o   n   ,       u   s   e   d       f   o   r    
+0042660   m   o   r   e       c   o   m   p   l   e   x       a   l   e
+0042700   s   .   <   /   F   _   A   _   N   O   T   E   S   >  \r  \n
+0042720  \t                           <   /   A   g   e   >  \r  \n  \t
+0042740                   <   A   g   e   >  \r  \n  \t                
+0042760           <   _   M   O   D   _   >  \r  \n  \t                
+0043000                   2   0   1   1   -   0   6   -   0   6   <   /
+0043020   _   M   O   D   _   >  \r  \n  \t                           <
+0043040   F   _   A   _   N   A   M   E   >  \r  \n  \t                
+0043060                   A   l   e   ,       S   i   n   g   l   e    
+0043100   S   t   a   g   e   <   /   F   _   A   _   N   A   M   E   >
+0043120  \r  \n  \t                           <   F   _   A   _   P   R
+0043140   I   M   _   T   E   M   P   >  \r  \n  \t                    
+0043160               6   7   .   0   0   0   0   0   0   0   <   /   F
+0043200   _   A   _   P   R   I   M   _   T   E   M   P   >  \r  \n  \t
+0043220                           <   F   _   A   _   P   R   I   M   _
+0043240   E   N   D   _   T   E   M   P   >  \r  \n  \t                
+0043260                   6   7   .   0   0   0   0   0   0   0   <   /
+0043300   F   _   A   _   P   R   I   M   _   E   N   D   _   T   E   M
+0043320   P   >  \r  \n  \t                           <   F   _   A   _
+0043340   S   E   C   _   T   E   M   P   >  \r  \n  \t                
+0043360                   6   5   .   0   0   0   0   0   0   0   <   /
+0043400   F   _   A   _   S   E   C   _   T   E   M   P   >  \r  \n  \t
+0043420                           <   F   _   A   _   S   E   C   _   E
+0043440   N   D   _   T   E   M   P   >  \r  \n  \t                    
+0043460               6   5   .   0   0   0   0   0   0   0   <   /   F
+0043500   _   A   _   S   E   C   _   E   N   D   _   T   E   M   P   >
+0043520  \r  \n  \t                           <   F   _   A   _   T   E
+0043540   R   T   _   T   E   M   P   >  \r  \n  \t                    
+0043560               6   5   .   0   0   0   0   0   0   0   <   /   F
+0043600   _   A   _   T   E   R   T   _   T   E   M   P   >  \r  \n  \t
+0043620                           <   F   _   A   _   A   G   E   _   T
+0043640   E   M   P   >  \r  \n  \t                                   6
+0043660   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _   A
+0043700   G   E   _   T   E   M   P   >  \r  \n  \t                    
+0043720       <   F   _   A   _   T   E   R   T   _   E   N   D   _   T
+0043740   E   M   P   >  \r  \n  \t                                   6
+0043760   5   .   0   0   0   0   0   0   0   <   /   F   _   A   _   T
+0044000   E   R   T   _   E   N   D   _   T   E   M   P   >  \r  \n  \t
+0044020                           <   F   _   A   _   E   N   D   _   A
+0044040   G   E   _   T   E   M   P   >  \r  \n  \t                    
+0044060               6   5   .   0   0   0   0   0   0   0   <   /   F
+0044100   _   A   _   E   N   D   _   A   G   E   _   T   E   M   P   >
+0044120  \r  \n  \t                           <   F   _   A   _   B   U
+0044140   L   K   _   T   E   M   P   >  \r  \n  \t                    
+0044160               6   5   .   0   0   0   0   0   0   0   <   /   F
+0044200   _   A   _   B   U   L   K   _   T   E   M   P   >  \r  \n  \t
+0044220                           <   F   _   A   _   B   U   L   K   _
+0044240   E   N   D   _   T   E   M   P   >  \r  \n  \t                
+0044260                   6   5   .   0   0   0   0   0   0   0   <   /
+0044300   F   _   A   _   B   U   L   K   _   E   N   D   _   T   E   M
+0044320   P   >  \r  \n  \t                           <   F   _   A   _
+0044340   E   N   D   _   T   E   M   P   S   _   S   E   T   >  \r  \n
+0044360  \t                                   1   <   /   F   _   A   _
+0044400   E   N   D   _   T   E   M   P   S   _   S   E   T   >  \r  \n
+0044420  \t                           <   F   _   A   _   P   R   I   M
+0044440   _   D   A   Y   S   >  \r  \n  \t                            
+0044460       1   4   .   0   0   0   0   0   0   0   <   /   F   _   A
+0044500   _   P   R   I   M   _   D   A   Y   S   >  \r  \n  \t        
+0044520                   <   F   _   A   _   S   E   C   _   D   A   Y
+0044540   S   >  \r  \n  \t                                   1   0   .
+0044560   0   0   0   0   0   0   0   <   /   F   _   A   _   S   E   C
+0044600   _   D   A   Y   S   >  \r  \n  \t                           <
+0044620   F   _   A   _   T   E   R   T   _   D   A   Y   S   >  \r  \n
+0044640  \t                                   7   .   0   0   0   0   0
+0044660   0   0   <   /   F   _   A   _   T   E   R   T   _   D   A   Y
+0044700   S   >  \r  \n  \t                           <   F   _   A   _
+0044720   B   U   L   K   _   D   A   Y   S   >  \r  \n  \t            
+0044740                       3   0   .   0   0   0   0   0   0   0   <
+0044760   /   F   _   A   _   B   U   L   K   _   D   A   Y   S   >  \r
+0045000  \n  \t                           <   F   _   A   _   A   G   E
+0045020   >  \r  \n  \t                                   3   0   .   0
+0045040   0   0   0   0   0   0   <   /   F   _   A   _   A   G   E   >
+0045060  \r  \n  \t                           <   F   _   A   _   T   Y
+0045100   P   E   >  \r  \n  \t                                   0   <
+0045120   /   F   _   A   _   T   Y   P   E   >  \r  \n  \t            
+0045140               <   F   _   A   _   N   O   T   E   S   >  \r  \n
+0045160  \t                                   A       s   i   m   p   l
+0045200   e       s   i   n   g   l   e       s   t   a   g   e       f
+0045220   e   r   m   e   n   t   a   t   i   o   n   ,       o   f   t
+0045240   e   n       u   s   e   d       b   y       e   x   t   r   a
+0045260   c   t       b   r   e   w   e   r   s       o   r       f   o
+0045300   r       c   l   a   s   s   i   c       a   l   e   s   .   <
+0045320   /   F   _   A   _   N   O   T   E   S   >  \r  \n  \t        
+0045340                   <   /   A   g   e   >  \r  \n  \t            
+0045360       <   /   D   a   t   a   >  \r  \n  \t           <   _   T
+0045400   E   x   p   a   n   d   e   d   >  \r  \n  \t                
+0045420   1   <   /   _   T   E   x   p   a   n   d   e   d   >  \r  \n
+0045440  \t           <   T   E   x   t   r   a   >  \r  \n  \t        
+0045460           0   <   /   T   E   x   t   r   a   >  \r  \n  \t    
+0045500       <   /   S   e   l   e   c   t   i   o   n   s   >  \r  \n
+0045520  \t
+0045521

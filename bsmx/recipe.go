@@ -7,7 +7,7 @@ type Recipe struct {
 	Acid             units.Bool       `xml:"F_R_ACID,omitempty"`
 	// Percent acid concentration for mash PH adjustment
 	AcidConc            units.Percentage        `xml:"F_R_ACID_CONC,omitempty"`
-	AgingProfile        *AgingProfile           `xml:"F_R_AGE,omitempty"`
+	FermentationProfile *FermentationProfile    `xml:"F_R_AGE,omitempty"`
 	AsstBrewer          string                  `xml:"F_R_ASST_BREWER,omitempty"`
 	BaseGrain           Grain                   `xml:"F_R_BASE_GRAIN,omitempty"`
 	BoilTimer           units.Bool              `xml:"F_R_BOIL_TIMER,omitempty"`
@@ -23,7 +23,7 @@ type Recipe struct {
 	DesiredColor        units.Color             `xml:"F_R_DESIRED_COLOR,omitempty"`
 	DesiredIBU          units.IBU               `xml:"F_R_DESIRED_IBU,omitempty"`
 	DesiredOG           units.Gravity           `xml:"F_R_DESIRED_OG,omitempty"`
-	Equipment           Equipment               `xml:"F_R_EQUIPMENT,omitempty"`
+	EquipmentProfile    EquipmentProfile        `xml:"F_R_EQUIPMENT,omitempty"`
 	Fermenter           string                  `xml:"F_R_FERMENTER,omitempty"`
 	FGMeasured          units.Gravity           `xml:"F_R_FG_MEASURED,omitempty"`
 	FGMeasuredSet       units.Bool              `xml:"F_R_FG_MEASURED_SET,omitempty"`

@@ -3,8 +3,8 @@ package bsmx_test
 import (
 	"io/ioutil"
 	"log"
-	"os"
 	"path/filepath"
+	"strings"
 	"testing"
 
 	"github.com/go-xmlfmt/xmlfmt"
@@ -16,29 +16,63 @@ func TestOpenSaveShouldResultInSameFile(t *testing.T) {
 	names, err := filepath.Glob("test_assets/*.bsmx")
 	if err != nil {
 		t.Error(err)
+		return
 	}
 
 	for _, name := range names {
+		// read .bsmlx file
 		b, err := ioutil.ReadFile(name)
 		if err != nil {
 			t.Error(err)
+			return
 		}
 
-		xml1 := xmlfmt.FormatXML(string(b), "\t", "  ")
+		// convert file contents to string
+		xml1 := string(b)
+		// trim spaces and newlinews (formatxml doesn't do that)
+		xml1 = strings.TrimSpace(xml1)
+		// format xml
+		xml1 = xmlfmt.FormatXML(xml1, "\t", "  ")
 
+		// read file contents and convert to struct
+		// f, err := bsmx.ReadString(xml1)
 		f, err := bsmx.ReadBytes(b)
 		if err != nil {
 			t.Error(err)
+			return
 		}
 
+		// convert struct back to bytes
 		b, err = f.ToXML()
 		if err != nil {
 			t.Error(err)
+			return
 		}
 
-		xml2 := xmlfmt.FormatXML(string(b), "\t", "  ")
+		// convert bytes to string
+		xml2 := string(b)
+		// trim spaces and newlinews (formatxml doesn't do that)
+		xml2 = strings.TrimSpace(xml2)
+		// format xml
+		xml2 = xmlfmt.FormatXML(xml2, "\t", "  ")
 
-		log.Println(xml1 == xml2)
+		// compare original contents with unmarshalled + marshalled contents
+		if strings.Compare(xml1, xml2) != 0 {
+			err = ioutil.WriteFile("xml1.xml", []byte(xml1), 0600)
+			if err != nil {
+				t.Error(err)
+				return
+			}
+
+			err = ioutil.WriteFile("xml2.xml", []byte(xml2), 0600)
+			if err != nil {
+				t.Error(err)
+				return
+			}
+
+			log.Fatalf("%s doesnt's marshal back to the same as the original", name)
+			// t.Errorf("%s doesnt's marshal back to the same as the original", name)
+		}
 	}
 }
 
@@ -150,6 +184,4 @@ func TestRecipe(t *testing.T) {
 			}
 		}
 	}
-
-	os.Exit(1)
 }

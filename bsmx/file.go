@@ -1,27 +1,29 @@
 package bsmx
 
 import (
+	"bytes"
 	"encoding/xml"
 	"io"
 	"os"
-
-	"github.com/leonb/go-beersmith/units"
+	"strings"
 )
 
 type File struct {
 	XMLName xml.Name
 
-	_MOD_    units.Date `xml:"_MOD_,omitempty"`
-	Name     string     `xml:"Name,omitempty"`
-	Type     Type       `xml:"Type,omitempty"`
-	Dirty    units.Bool `xml:"Dirty,omitempty"`
-	Owndata  units.Bool `xml:"Owndata,omitempty"`
-	TID      int        `xml:"TID,omitempty"`
-	Size     int        `xml:"Size,omitempty"`
-	_XName   *_XName    `xml:"_XName,omitempty"`
-	Allocinc int        `xml:"Allocinc,omitempty"`
+	MOD      string  `xml:"_MOD_,omitempty"`
+	Name     string  `xml:"Name,omitempty"`
+	Type     Type    `xml:"Type,omitempty"`
+	Dirty    IntBool `xml:"Dirty"`
+	Owndata  IntBool `xml:"Owndata"`
+	TID      int     `xml:"TID,omitempty"`
+	Size     int     `xml:"Size,omitempty"`
+	XName    string  `xml:"_XName,omitempty"`
+	Allocinc int     `xml:"Allocinc,omitempty"`
 	// Data       Data      `xml:"Data,omitempty"`
+	Archives             Archives             `xml:"Data>Archive"`
 	CarbonationProfiles  CarbonationProfiles  `xml:"Data>Carbonation"`
+	EquipmentProfiles    EquipmentProfiles    `xml:"Data>Equipment"`
 	FermentationProfiles FermentationProfiles `xml:"Data>Age"`
 	Grains               Grains               `xml:"Data>Grain"`
 	Hops                 Hops                 `xml:"Data>Hop"`
@@ -32,16 +34,20 @@ type File struct {
 	Tables               Tables               `xml:"Data>Table"`
 	WaterProfiles        WaterProfiles        `xml:"Data>Water"`
 	Yeasts               Yeasts               `xml:"Data>Yeast"`
-	_TExpanded           units.Bool           `xml:"_TExpanded,omitempty"`
+	TExpanded            IntBool              `xml:"_TExpanded"`
+	TExtra               IntBool              `xml:"TExtra"`
 }
 
 func (f *File) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
 	type Alias File
 	var alias Alias
 
-	dec.Entity = xml.HTMLEntity
+	// dec.Entity = xml.HTMLEntity
 	err := dec.DecodeElement(&alias, &start)
 	if err == nil {
+		alias.Name = strings.TrimSpace(alias.Name)
+		alias.MOD = strings.TrimSpace(alias.MOD)
+		alias.XName = strings.TrimSpace(alias.XName)
 		*f = File(alias)
 	}
 	return err
@@ -71,14 +77,19 @@ func Open(name string) (*File, error) {
 }
 
 func ReadBytes(b []byte) (*File, error) {
+	r := bytes.NewReader(b)
+	return Read(r)
+}
+
+func ReadString(s string) (*File, error) {
 	file := File{}
-	err := xml.Unmarshal(b, &file)
+	err := xml.Unmarshal([]byte(s), &file)
 	return &file, err
 }
 
 func Read(r io.Reader) (*File, error) {
 	dec := xml.NewDecoder(r)
-	// dec.Entity = xml.HTMLEntity
+	dec.Entity = xml.HTMLEntity
 	file := File{}
 	err := dec.Decode(&file)
 	return &file, err
