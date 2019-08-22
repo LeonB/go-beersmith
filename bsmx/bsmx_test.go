@@ -55,6 +55,17 @@ func TestOpenSaveShouldResultInSameFile(t *testing.T) {
 		xml2 = strings.TrimSpace(xml2)
 		// format xml
 		xml2 = xmlfmt.FormatXML(xml2, "\t", "  ")
+		xml2 = strings.ReplaceAll(xml2, "&#xA;", "\n")
+		xml2 = strings.ReplaceAll(xml2, "–", "&ndash;")
+		xml2 = strings.ReplaceAll(xml2, "“", "&ldquo;")
+		xml2 = strings.ReplaceAll(xml2, "”", "&rdquo;")
+		xml2 = strings.ReplaceAll(xml2, "&#34;", "&quot;")
+		xml2 = strings.ReplaceAll(xml2, "©", "&copy;")
+		xml2 = strings.ReplaceAll(xml2, "®", "&reg;")
+		xml2 = strings.ReplaceAll(xml2, "™", "&trade;")
+		// ®™
+		// &reg;&trade;
+		// xml2 = html.UnescapeString(xml2)
 
 		// compare original contents with unmarshalled + marshalled contents
 		if strings.Compare(xml1, xml2) != 0 {

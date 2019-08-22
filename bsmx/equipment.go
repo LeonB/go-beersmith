@@ -1,6 +1,10 @@
 package bsmx
 
-import "github.com/leonb/go-beersmith/units"
+import (
+	"encoding/xml"
+
+	"github.com/leonb/go-beersmith/units"
+)
 
 type EquipmentProfiles []EquipmentProfile
 
@@ -30,11 +34,18 @@ type EquipmentProfile struct {
 	TopUp           units.Volume         `xml:"F_E_TOP_UP"`
 	Efficiency      units.Percentage     `xml:"F_E_EFFICIENCY"`
 	HopUtil         units.Percentage     `xml:"F_E_HOP_UTIL"`
-	Notes           string               `xml:"F_E_NOTES"`
+	Notes           String               `xml:"F_E_NOTES"`
 	Altitude        units.Altitude       `xml:"F_E_ALTITUDE"`
 	WhirlpoolCarry  units.Bool           `xml:"F_E_WHIRLPOOL_CARRY"`
 	WhirlpoolTime   units.Duration       `xml:"F_E_WHIRLPOOL_TIME"`
 	_MOD_           units.Date           `xml:"_MOD_"`
+}
+
+func (ep EquipmentProfile) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
+	type alias EquipmentProfile
+	a := alias(ep)
+	a.WhirlpoolTime.SetPrintf("%g")
+	return e.EncodeElement(a, start)
 }
 
 type EquipmentProfileType int
