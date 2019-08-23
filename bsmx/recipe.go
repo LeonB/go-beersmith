@@ -2,6 +2,8 @@ package bsmx
 
 import "github.com/leonb/go-beersmith/units"
 
+type Recipes []Recipe
+
 type Recipe struct {
 	FermentationData FermentationData `xml:"AgeData,omitempty"`
 	Acid             units.Bool       `xml:"F_R_ACID,omitempty"`
@@ -75,7 +77,7 @@ type Recipe struct {
 	VolumeMeasuredSet   units.Bool              `xml:"F_R_VOLUME_MEASURED_SET,omitempty"`
 	Image               *Image                  `xml:"Image,omitempty"`
 	Ingredients         *Ingredients            `xml:"Ingredients,omitempty"`
-	_MOD_               units.Date              `xml:"_MOD_,omitempty"`
+	MOD                 units.Date              `xml:"_MOD_,omitempty"`
 }
 
 type RecipeOldType int

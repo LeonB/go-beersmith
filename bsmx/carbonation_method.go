@@ -10,7 +10,7 @@ type CarbonationMethod struct {
 	PrimerName  string                `xml:"F_C_PRIMER_NAME"`
 	Temperature units.Temperature     `xml:"F_C_TEMPERATURE"`
 	Type        CarbonationMethodType `xml:"F_C_TYPE"`
-	_MOD_       units.Date            `xml:"_MOD_"`
+	MOD         units.Date            `xml:"_MOD_"`
 }
 
 type CarbonationMethodType int

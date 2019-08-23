@@ -5,26 +5,27 @@ import "github.com/leonb/go-beersmith/units"
 type Hops []Hop
 
 type Hop struct {
-	Alpha      units.Percentage `xml:"F_H_ALPHA"`
-	Amount     units.Weight     `xml:"F_H_AMOUNT"`
-	Beta       units.Percentage `xml:"F_H_BETA"`
-	BoilTime   units.Duration   `xml:"F_H_BOIL_TIME"`
-	DryHopTime units.Duration   `xml:"F_H_DRY_HOP_TIME"`
-	Form       HopForm          `xml:"F_H_FORM"`
+	MOD       units.Date       `xml:"_MOD_"`
+	Name      string           `xml:"F_H_NAME"`
+	Origin    string           `xml:"F_H_ORIGIN"`
+	Type      HopType          `xml:"F_H_TYPE"`
+	Form      HopForm          `xml:"F_H_FORM"`
+	Alpha     units.Percentage `xml:"F_H_ALPHA"`
+	Beta      units.Percentage `xml:"F_H_BETA"`
+	Percent   units.Percentage `xml:"F_H_PERCENT"`
+	Inventory units.Weight     `xml:"F_H_INVENTORY"`
+	Amount    units.Weight     `xml:"F_H_AMOUNT"`
 	// Hop storage index provices percent of alpha acid lost in 6 months.
-	HSI        units.Percentage `xml:"F_H_HSI"`
-	IBUContrib units.Percentage `xml:"F_H_IBU_CONTRIB"`
-	Inventory  units.Weight     `xml:"F_H_INVENTORY"`
-	InRecipe   units.Bool       `xml:"F_H_IN_RECIPE"`
-	Name       string           `xml:"F_H_NAME"`
-	Notes      string           `xml:"F_H_NOTES"`
-	Origin     string           `xml:"F_H_ORIGIN"`
-	Percent    units.Percentage `xml:"F_H_PERCENT"`
-	Price      units.Price      `xml:"F_H_PRICE"`
-	Type       HopType          `xml:"F_H_TYPE"`
-	Use        HopUse           `xml:"F_H_USE"`
-	Order      int              `xml:"F_ORDER"`
-	MOD        units.Date       `xml:"_MOD_"`
+	HSI                  units.Percentage  `xml:"F_H_HSI"`
+	BoilTime             units.Duration    `xml:"F_H_BOIL_TIME"`
+	DryHopTime           units.Duration    `xml:"F_H_DRY_HOP_TIME"`
+	Notes                string            `xml:"F_H_NOTES"`
+	WhirlpoolTemperature units.Temperature `xml:"F_H_WHIRLPOOL_TEMP"`
+	IBUContrib           units.Percentage  `xml:"F_H_IBU_CONTRIB"`
+	Order                int               `xml:"F_ORDER"`
+	Use                  HopUse            `xml:"F_H_USE"`
+	InRecipe             units.Bool        `xml:"F_H_IN_RECIPE"`
+	Price                units.Price       `xml:"F_H_PRICE"`
 }
 
 type HopForm int

@@ -26,5 +26,5 @@ type WaterProfile struct {
 	Soda         units.Weight `xml:"F_W_SODA"`
 	Sodium       units.Parts  `xml:"F_W_SODIUM"`
 	Sulfate      units.Parts  `xml:"F_W_SULFATE"`
-	_MOD_        units.Date   `xml:"_MOD_"`
+	MOD          units.Date   `xml:"_MOD_"`
 }

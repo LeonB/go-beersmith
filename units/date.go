@@ -34,3 +34,7 @@ func (d *Date) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
 func (d Date) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
 	return e.EncodeElement(d.Format("2006-01-02"), start)
 }
+
+// func (d Date) Equal(d2 Date) bool {
+// 	return d.Equal(d2)
+// }

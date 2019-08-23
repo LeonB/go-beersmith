@@ -21,7 +21,7 @@ type Misc struct {
 	UseFor         MiscUseFor     `xml:"F_M_USE_FOR"`
 	Volume         units.Volume   `xml:"F_M_VOLUME"`
 	Order          int            `xml:"F_ORDER"`
-	_MOD_          units.Date     `xml:"_MOD_"`
+	MOD            units.Date     `xml:"_MOD_"`
 }
 
 type MiscType int

@@ -29,3 +29,7 @@ func (d Duration) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
 	s := fmt.Sprintf(d.Printf(), d.float64)
 	return e.EncodeElement(s, start)
 }
+
+func (d Duration) Equal(d2 Duration) bool {
+	return d.float64 == d2.float64
+}

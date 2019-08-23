@@ -7,8 +7,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/agnivade/levenshtein"
 	"github.com/go-xmlfmt/xmlfmt"
+	"github.com/google/go-cmp/cmp"
 	"github.com/leonb/go-beersmith/bsmx"
+	"github.com/meirf/gopart"
 	"github.com/mitchellh/go-homedir"
 )
 
@@ -55,20 +58,33 @@ func TestOpenSaveShouldResultInSameFile(t *testing.T) {
 		xml2 = strings.TrimSpace(xml2)
 		// format xml
 		xml2 = xmlfmt.FormatXML(xml2, "\t", "  ")
-		xml2 = strings.ReplaceAll(xml2, "&#xA;", "\n")
-		xml2 = strings.ReplaceAll(xml2, "–", "&ndash;")
-		xml2 = strings.ReplaceAll(xml2, "“", "&ldquo;")
-		xml2 = strings.ReplaceAll(xml2, "”", "&rdquo;")
-		xml2 = strings.ReplaceAll(xml2, "&#34;", "&quot;")
-		xml2 = strings.ReplaceAll(xml2, "©", "&copy;")
-		xml2 = strings.ReplaceAll(xml2, "®", "&reg;")
-		xml2 = strings.ReplaceAll(xml2, "™", "&trade;")
-		// ®™
-		// &reg;&trade;
-		// xml2 = html.UnescapeString(xml2)
 
-		// compare original contents with unmarshalled + marshalled contents
-		if strings.Compare(xml1, xml2) != 0 {
+		i := 0
+		distance := 0
+		for r := range gopart.Partition(len(xml1), 10000) {
+			i = i + 1
+			x1 := xml1[r.Low:r.High]
+			if r.Low > len(xml2) {
+				r.Low = len(xml2)
+			}
+			if r.High > len(xml2) {
+				r.High = len(xml2)
+			}
+			x2 := xml2[r.Low:r.High]
+
+			// calculate rolling levenshtein distance
+			// distance = distance + (levenshtein.ComputeDistance(x1, x2))
+			distance = distance - (distance / i)
+			distance = distance + (levenshtein.ComputeDistance(x1, x2) / i)
+		}
+
+		// if name == "test_assets/Grain.bsmx" {
+		// 	continue
+		// }
+
+		log.Println(name)
+		log.Println(distance)
+		if distance > 2000 {
 			err = ioutil.WriteFile("xml1.xml", []byte(xml1), 0600)
 			if err != nil {
 				t.Error(err)
@@ -83,6 +99,42 @@ func TestOpenSaveShouldResultInSameFile(t *testing.T) {
 
 			log.Fatalf("%s doesnt's marshal back to the same as the original", name)
 			// t.Errorf("%s doesnt's marshal back to the same as the original", name)
+		}
+	}
+}
+
+func TestMarshalUnmarshalShouldGenerateSameStructs(t *testing.T) {
+	names, err := filepath.Glob("test_assets/*.bsmx")
+	if err != nil {
+		t.Error(err)
+		return
+	}
+
+	for _, name := range names {
+		// read .bsmx file
+		f1, err := bsmx.Open(name)
+		if err != nil {
+			t.Error(err)
+			return
+		}
+
+		// convert file back to xml
+		b, err := f1.ToXML()
+		if err != nil {
+			t.Error(err)
+			return
+		}
+
+		// read newly generated xml back as struct
+		f2, err := bsmx.ReadBytes(b)
+		if err != nil {
+			t.Error(err)
+			return
+		}
+
+		// f1 and f2 should be equal
+		if !cmp.Equal(f1, f2) {
+			t.Errorf("structs for %s are not the same", name)
 		}
 	}
 }

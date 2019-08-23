@@ -38,7 +38,6 @@ type EquipmentProfile struct {
 	Altitude        units.Altitude       `xml:"F_E_ALTITUDE"`
 	WhirlpoolCarry  units.Bool           `xml:"F_E_WHIRLPOOL_CARRY"`
 	WhirlpoolTime   units.Duration       `xml:"F_E_WHIRLPOOL_TIME"`
-	_MOD_           units.Date           `xml:"_MOD_"`
 }
 
 func (ep EquipmentProfile) MarshalXML(e *xml.Encoder, start xml.StartElement) error {

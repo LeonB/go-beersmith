@@ -3,7 +3,7 @@ package bsmx
 import "github.com/leonb/go-beersmith/units"
 
 type Ingredients struct {
-	_MOD_    units.Date `xml:"_MOD_"`
+	MOD      units.Date `xml:"_MOD_"`
 	Name     string     `xml:"Name"`
 	Type     Type       `xml:"Type"`
 	Dirty    units.Bool `xml:"Dirty"`

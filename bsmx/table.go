@@ -13,7 +13,7 @@ func (t Tables) GetRecipes() Recipes {
 }
 
 type Table struct {
-	_MOD_    units.Date `xml:"_MOD_"`
+	MOD      units.Date `xml:"_MOD_"`
 	Name     string     `xml:"Name"`
 	Type     Type       `xml:"Type"`
 	Dirty    units.Bool `xml:"Dirty"`
@@ -23,9 +23,9 @@ type Table struct {
 	XName    String     `xml:"_XName"`
 	Allocinc int        `xml:"Allocinc"`
 	// Data       *Data      `xml:"Data"`
-	Recipes    Recipes    `xml:"Data>Recipe"`
-	Tables     Tables     `xml:"Data>Table"`
-	_TExpanded units.Bool `xml:"_TExpanded"`
+	Recipes   Recipes    `xml:"Data>Recipe"`
+	Tables    Tables     `xml:"Data>Table"`
+	TExpanded units.Bool `xml:"_TExpanded"`
 }
 
 func (t Table) GetRecipes() Recipes {

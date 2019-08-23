@@ -32,7 +32,7 @@ type Style struct {
 	Profile     string                  `xml:"F_S_PROFILE"`
 	Type        StyleType               `xml:"F_S_TYPE"`
 	WebLink     url.URL                 `xml:"F_S_WEB_LINK"`
-	_MOD_       units.Date              `xml:"_MOD_"`
+	MOD         units.Date              `xml:"_MOD_"`
 }
 
 type StyleType int

@@ -33,7 +33,7 @@ type Yeast struct {
 	TimesCultured  int               `xml:"F_Y_TIMES_CULTURED"`
 	Type           YeastType         `xml:"F_Y_TYPE"`
 	UseStarter     units.Bool        `xml:"F_Y_USE_STARTER"`
-	_MOD_          units.Date        `xml:"_MOD_"`
+	MOD            units.Date        `xml:"_MOD_"`
 }
 
 type YeastFlocculation int

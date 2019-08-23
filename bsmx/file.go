@@ -26,7 +26,7 @@ type File struct {
 	EquipmentProfiles    EquipmentProfiles    `xml:"Data>Equipment"`
 	FermentationProfiles FermentationProfiles `xml:"Data>Age"`
 	Grains               Grains               `xml:"Data>Grain"`
-	Hops                 Hops                 `xml:"Data>Hop"`
+	Hops                 Hops                 `xml:"Data>Hops"`
 	MashProfiles         MashProfiles         `xml:"Data>Mash"`
 	Miscs                Miscs                `xml:"Data>Misc"`
 	Recipes              Recipes              `xml:"Data>Recipe"`
